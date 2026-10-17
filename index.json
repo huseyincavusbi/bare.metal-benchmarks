@@ -1,4 +1,43 @@
 {
   "schema": "baremetal.results-index/v1",
-  "runs": []
+  "runs": [
+    {
+      "folder": "10-17-2026-1434-baseline-135m",
+      "name": "10-17-2026-1434-baseline-135m",
+      "date": "10-17-2026",
+      "kind": "baseline",
+      "version": "v0.1.1",
+      "commit": "ae5028f",
+      "models": [
+        "smollm2-135m"
+      ],
+      "engines": [
+        "bare.metal",
+        "llama.cpp",
+        "mlx",
+        "torch-mps"
+      ],
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross,sweep,aggregate",
+      "headline": {
+        "smollm2-135m": {
+          "bare.metal": {
+            "prefill_tok_s": 14.877,
+            "decode_tok_s": 10.468
+          },
+          "llama.cpp": {
+            "prefill_tok_s": 8077.663741,
+            "decode_tok_s": 153.487307
+          },
+          "mlx": {
+            "prefill_tok_s": 4047.7217243163464,
+            "decode_tok_s": 155.2166244890939
+          },
+          "torch-mps": {
+            "prefill_tok_s": 3350.6950087539967,
+            "decode_tok_s": 83.95104715764094
+          }
+        }
+      }
+    }
+  ]
 }
