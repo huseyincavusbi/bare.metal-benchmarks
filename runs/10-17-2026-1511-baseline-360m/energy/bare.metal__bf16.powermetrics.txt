@@ -1,0 +1,3927 @@
+*** Sampled system activity (256.66ms elapsed) ***
+E-Cluster HW active frequency: 1439 MHz
+E-Cluster HW active residency:   1.59%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 296 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 756 MHz
+GPU HW active residency:   0.67%
+GPU Power: 0 mW
+*** Sampled system activity (271.19ms elapsed) ***
+E-Cluster HW active frequency: 1248 MHz
+E-Cluster HW active residency:  43.60%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 114 mW
+GPU Power: 4 mW
+ANE Power: 0 mW
+GPU HW active frequency: 766 MHz
+GPU HW active residency:   2.59%
+GPU Power: 4 mW
+*** Sampled system activity (266.37ms elapsed) ***
+E-Cluster HW active frequency: 1241 MHz
+E-Cluster HW active residency:  26.68%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 86 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 0 MHz
+GPU HW active residency:   0.00%
+GPU Power: 0 mW
+*** Sampled system activity (263.89ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 3831 MHz
+P-Cluster HW active residency:  94.48%
+CPU Power: 1584 mW
+GPU Power: 4 mW
+ANE Power: 0 mW
+GPU HW active frequency: 721 MHz
+GPU HW active residency:   1.15%
+GPU Power: 4 mW
+*** Sampled system activity (256.80ms elapsed) ***
+E-Cluster HW active frequency: 1171 MHz
+E-Cluster HW active residency:  32.30%
+P-Cluster HW active frequency: 4321 MHz
+P-Cluster HW active residency:  96.52%
+CPU Power: 1924 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 773 MHz
+GPU HW active residency:   1.21%
+GPU Power: 0 mW
+*** Sampled system activity (257.84ms elapsed) ***
+E-Cluster HW active frequency: 1332 MHz
+E-Cluster HW active residency:   6.90%
+P-Cluster HW active frequency: 4285 MHz
+P-Cluster HW active residency:  97.98%
+CPU Power: 2160 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 0 MHz
+GPU HW active residency:   0.00%
+GPU Power: 0 mW
+*** Sampled system activity (257.15ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 3998 MHz
+P-Cluster HW active residency:  99.49%
+CPU Power: 5961 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 774 MHz
+GPU HW active residency:   1.20%
+GPU Power: 0 mW
+*** Sampled system activity (257.21ms elapsed) ***
+E-Cluster HW active frequency: 1318 MHz
+E-Cluster HW active residency:   3.40%
+P-Cluster HW active frequency: 3955 MHz
+P-Cluster HW active residency:  99.99%
+CPU Power: 6893 mW
+GPU Power: 4 mW
+ANE Power: 0 mW
+GPU HW active frequency: 767 MHz
+GPU HW active residency:   2.57%
+GPU Power: 4 mW
+*** Sampled system activity (257.30ms elapsed) ***
+E-Cluster HW active frequency: 1173 MHz
+E-Cluster HW active residency:  40.51%
+P-Cluster HW active frequency: 4266 MHz
+P-Cluster HW active residency:  99.28%
+CPU Power: 3525 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 758 MHz
+GPU HW active residency:   0.69%
+GPU Power: 0 mW
+*** Sampled system activity (257.45ms elapsed) ***
+E-Cluster HW active frequency: 1900 MHz
+E-Cluster HW active residency:  61.72%
+P-Cluster HW active frequency: 4161 MHz
+P-Cluster HW active residency:  61.65%
+CPU Power: 3395 mW
+GPU Power: 128 mW
+ANE Power: 0 mW
+GPU HW active frequency: 789 MHz
+GPU HW active residency:  34.57%
+GPU Power: 163 mW
+*** Sampled system activity (256.04ms elapsed) ***
+E-Cluster HW active frequency: 1472 MHz
+E-Cluster HW active residency:  26.36%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 437 mW
+GPU Power: 644 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 609 mW
+*** Sampled system activity (260.94ms elapsed) ***
+E-Cluster HW active frequency: 1602 MHz
+E-Cluster HW active residency:   2.38%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 276 mW
+GPU Power: 609 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 609 mW
+*** Sampled system activity (269.04ms elapsed) ***
+E-Cluster HW active frequency: 1836 MHz
+E-Cluster HW active residency:  60.40%
+P-Cluster HW active frequency: 3509 MHz
+P-Cluster HW active residency:  71.40%
+CPU Power: 4891 mW
+GPU Power: 673 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 673 mW
+*** Sampled system activity (256.76ms elapsed) ***
+E-Cluster HW active frequency: 1341 MHz
+E-Cluster HW active residency:   3.53%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 869 mW
+GPU Power: 627 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 627 mW
+*** Sampled system activity (260.29ms elapsed) ***
+E-Cluster HW active frequency: 1806 MHz
+E-Cluster HW active residency:  36.96%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 284 mW
+GPU Power: 611 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 611 mW
+*** Sampled system activity (267.66ms elapsed) ***
+E-Cluster HW active frequency: 1273 MHz
+E-Cluster HW active residency:  49.44%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 164 mW
+GPU Power: 579 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (269.71ms elapsed) ***
+E-Cluster HW active frequency: 1245 MHz
+E-Cluster HW active residency:  57.58%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 141 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 612 mW
+*** Sampled system activity (268.75ms elapsed) ***
+E-Cluster HW active frequency: 1575 MHz
+E-Cluster HW active residency:  36.75%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 1258 mW
+GPU Power: 614 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  96.91%
+GPU Power: 566 mW
+*** Sampled system activity (258.57ms elapsed) ***
+E-Cluster HW active frequency: 1501 MHz
+E-Cluster HW active residency:  19.58%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 290 mW
+GPU Power: 615 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 615 mW
+*** Sampled system activity (269.66ms elapsed) ***
+E-Cluster HW active frequency: 1386 MHz
+E-Cluster HW active residency:  61.96%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 174 mW
+GPU Power: 575 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 575 mW
+*** Sampled system activity (266.24ms elapsed) ***
+E-Cluster HW active frequency: 1711 MHz
+E-Cluster HW active residency:  47.96%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 353 mW
+GPU Power: 582 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 616 mW
+*** Sampled system activity (270.87ms elapsed) ***
+E-Cluster HW active frequency: 1936 MHz
+E-Cluster HW active residency:  46.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 233 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 583 mW
+*** Sampled system activity (267.48ms elapsed) ***
+E-Cluster HW active frequency: 1448 MHz
+E-Cluster HW active residency:  49.24%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 579 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (267.85ms elapsed) ***
+E-Cluster HW active frequency: 1498 MHz
+E-Cluster HW active residency:  62.81%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 265 mW
+GPU Power: 571 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.77%
+GPU Power: 571 mW
+*** Sampled system activity (267.79ms elapsed) ***
+E-Cluster HW active frequency: 1416 MHz
+E-Cluster HW active residency:  72.08%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 213 mW
+GPU Power: 579 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (268.12ms elapsed) ***
+E-Cluster HW active frequency: 1337 MHz
+E-Cluster HW active residency:  54.38%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 608 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 574 mW
+*** Sampled system activity (268.71ms elapsed) ***
+E-Cluster HW active frequency: 1202 MHz
+E-Cluster HW active residency:  54.10%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 573 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 573 mW
+*** Sampled system activity (267.46ms elapsed) ***
+E-Cluster HW active frequency: 1706 MHz
+E-Cluster HW active residency:  79.25%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 860 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (268.82ms elapsed) ***
+E-Cluster HW active frequency: 1193 MHz
+E-Cluster HW active residency:  63.63%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 565 mW
+*** Sampled system activity (269.36ms elapsed) ***
+E-Cluster HW active frequency: 1431 MHz
+E-Cluster HW active residency:  77.77%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 219 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 561 mW
+*** Sampled system activity (268.84ms elapsed) ***
+E-Cluster HW active frequency: 1369 MHz
+E-Cluster HW active residency:  56.15%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 145 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (268.03ms elapsed) ***
+E-Cluster HW active frequency: 1399 MHz
+E-Cluster HW active residency:  55.69%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 175 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.21%
+GPU Power: 597 mW
+*** Sampled system activity (267.93ms elapsed) ***
+E-Cluster HW active frequency: 1463 MHz
+E-Cluster HW active residency:  66.53%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 172 mW
+GPU Power: 575 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 575 mW
+*** Sampled system activity (268.68ms elapsed) ***
+E-Cluster HW active frequency: 1633 MHz
+E-Cluster HW active residency:  52.57%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 197 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 573 mW
+*** Sampled system activity (269.70ms elapsed) ***
+E-Cluster HW active frequency: 1473 MHz
+E-Cluster HW active residency:  67.18%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 200 mW
+GPU Power: 597 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.36%
+GPU Power: 552 mW
+*** Sampled system activity (271.81ms elapsed) ***
+E-Cluster HW active frequency: 1234 MHz
+E-Cluster HW active residency:  68.57%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 136 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 563 mW
+*** Sampled system activity (267.39ms elapsed) ***
+E-Cluster HW active frequency: 1323 MHz
+E-Cluster HW active residency:  50.62%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (266.27ms elapsed) ***
+E-Cluster HW active frequency: 1252 MHz
+E-Cluster HW active residency:  40.99%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 116 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 563 mW
+*** Sampled system activity (268.56ms elapsed) ***
+E-Cluster HW active frequency: 1315 MHz
+E-Cluster HW active residency:  54.62%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 138 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 566 mW
+*** Sampled system activity (269.41ms elapsed) ***
+E-Cluster HW active frequency: 1395 MHz
+E-Cluster HW active residency:  45.72%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 178 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 598 mW
+*** Sampled system activity (269.20ms elapsed) ***
+E-Cluster HW active frequency: 1183 MHz
+E-Cluster HW active residency:  51.02%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 323 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (268.41ms elapsed) ***
+E-Cluster HW active frequency: 1375 MHz
+E-Cluster HW active residency:  43.76%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 812 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (269.12ms elapsed) ***
+E-Cluster HW active frequency: 1276 MHz
+E-Cluster HW active residency:  52.21%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 130 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.77%
+GPU Power: 550 mW
+*** Sampled system activity (269.25ms elapsed) ***
+E-Cluster HW active frequency: 1229 MHz
+E-Cluster HW active residency:  50.62%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 568 mW
+*** Sampled system activity (270.21ms elapsed) ***
+E-Cluster HW active frequency: 1458 MHz
+E-Cluster HW active residency:  62.89%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 241 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (267.35ms elapsed) ***
+E-Cluster HW active frequency: 1775 MHz
+E-Cluster HW active residency:  31.83%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 318 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (262.96ms elapsed) ***
+E-Cluster HW active frequency: 1832 MHz
+E-Cluster HW active residency:  63.71%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 270 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (270.04ms elapsed) ***
+E-Cluster HW active frequency: 1576 MHz
+E-Cluster HW active residency:  59.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 337 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (259.20ms elapsed) ***
+E-Cluster HW active frequency: 1578 MHz
+E-Cluster HW active residency:  32.06%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 262 mW
+GPU Power: 598 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 598 mW
+*** Sampled system activity (269.16ms elapsed) ***
+E-Cluster HW active frequency: 1319 MHz
+E-Cluster HW active residency:  61.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 175 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 561 mW
+*** Sampled system activity (270.62ms elapsed) ***
+E-Cluster HW active frequency: 1287 MHz
+E-Cluster HW active residency:  53.44%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 129 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (266.51ms elapsed) ***
+E-Cluster HW active frequency: 1416 MHz
+E-Cluster HW active residency:  58.36%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 229 mW
+GPU Power: 529 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  95.71%
+GPU Power: 529 mW
+*** Sampled system activity (264.96ms elapsed) ***
+E-Cluster HW active frequency: 1481 MHz
+E-Cluster HW active residency:  36.49%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 208 mW
+GPU Power: 574 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 574 mW
+*** Sampled system activity (269.26ms elapsed) ***
+E-Cluster HW active frequency: 1327 MHz
+E-Cluster HW active residency:  70.43%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 208 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (267.41ms elapsed) ***
+E-Cluster HW active frequency: 1267 MHz
+E-Cluster HW active residency:  65.46%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 568 mW
+*** Sampled system activity (268.55ms elapsed) ***
+E-Cluster HW active frequency: 1266 MHz
+E-Cluster HW active residency:  62.30%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 588 mW
+*** Sampled system activity (268.96ms elapsed) ***
+E-Cluster HW active frequency: 1284 MHz
+E-Cluster HW active residency:  45.95%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 517 mW
+*** Sampled system activity (262.65ms elapsed) ***
+E-Cluster HW active frequency: 1760 MHz
+E-Cluster HW active residency:  57.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 278 mW
+GPU Power: 583 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.71%
+GPU Power: 583 mW
+*** Sampled system activity (262.48ms elapsed) ***
+E-Cluster HW active frequency: 1517 MHz
+E-Cluster HW active residency:  53.00%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 286 mW
+GPU Power: 571 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (270.04ms elapsed) ***
+E-Cluster HW active frequency: 1292 MHz
+E-Cluster HW active residency:  47.87%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 122 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (269.81ms elapsed) ***
+E-Cluster HW active frequency: 1125 MHz
+E-Cluster HW active residency:  48.15%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 96 mW
+GPU Power: 560 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 589 mW
+*** Sampled system activity (268.47ms elapsed) ***
+E-Cluster HW active frequency: 1454 MHz
+E-Cluster HW active residency:  60.85%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 529 mW
+GPU Power: 529 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  95.98%
+GPU Power: 529 mW
+*** Sampled system activity (268.69ms elapsed) ***
+E-Cluster HW active frequency: 1334 MHz
+E-Cluster HW active residency:  55.51%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 145 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (265.21ms elapsed) ***
+E-Cluster HW active frequency: 1829 MHz
+E-Cluster HW active residency:  62.44%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 249 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (268.52ms elapsed) ***
+E-Cluster HW active frequency: 1267 MHz
+E-Cluster HW active residency:  47.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 130 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 562 mW
+*** Sampled system activity (264.90ms elapsed) ***
+E-Cluster HW active frequency: 1242 MHz
+E-Cluster HW active residency:  50.27%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 113 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (270.90ms elapsed) ***
+E-Cluster HW active frequency: 1230 MHz
+E-Cluster HW active residency:  84.44%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 155 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 546 mW
+*** Sampled system activity (269.51ms elapsed) ***
+E-Cluster HW active frequency: 1374 MHz
+E-Cluster HW active residency:  48.72%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 130 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (267.80ms elapsed) ***
+E-Cluster HW active frequency: 1388 MHz
+E-Cluster HW active residency:  60.61%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 190 mW
+GPU Power: 556 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.32%
+GPU Power: 556 mW
+*** Sampled system activity (268.04ms elapsed) ***
+E-Cluster HW active frequency: 1287 MHz
+E-Cluster HW active residency:  56.87%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 556 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 556 mW
+*** Sampled system activity (268.57ms elapsed) ***
+E-Cluster HW active frequency: 1233 MHz
+E-Cluster HW active residency:  58.93%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (269.86ms elapsed) ***
+E-Cluster HW active frequency: 1265 MHz
+E-Cluster HW active residency:  39.20%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 548 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 582 mW
+*** Sampled system activity (269.01ms elapsed) ***
+E-Cluster HW active frequency: 1283 MHz
+E-Cluster HW active residency:  60.07%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 134 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (270.95ms elapsed) ***
+E-Cluster HW active frequency: 1375 MHz
+E-Cluster HW active residency:  41.69%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 192 mW
+GPU Power: 579 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 546 mW
+*** Sampled system activity (267.53ms elapsed) ***
+E-Cluster HW active frequency: 1370 MHz
+E-Cluster HW active residency:  43.91%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 564 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 564 mW
+*** Sampled system activity (267.83ms elapsed) ***
+E-Cluster HW active frequency: 1238 MHz
+E-Cluster HW active residency:  49.06%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 101 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (265.76ms elapsed) ***
+E-Cluster HW active frequency: 1275 MHz
+E-Cluster HW active residency:  56.90%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 139 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (270.02ms elapsed) ***
+E-Cluster HW active frequency: 1426 MHz
+E-Cluster HW active residency:  69.28%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 178 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (267.24ms elapsed) ***
+E-Cluster HW active frequency: 1213 MHz
+E-Cluster HW active residency:  56.84%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 135 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (268.52ms elapsed) ***
+E-Cluster HW active frequency: 1690 MHz
+E-Cluster HW active residency:  63.00%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 413 mW
+GPU Power: 547 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 547 mW
+*** Sampled system activity (265.98ms elapsed) ***
+E-Cluster HW active frequency: 2355 MHz
+E-Cluster HW active residency: 100.00%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 1004 mW
+GPU Power: 545 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (269.37ms elapsed) ***
+E-Cluster HW active frequency: 1456 MHz
+E-Cluster HW active residency:  99.94%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 342 mW
+GPU Power: 546 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 546 mW
+*** Sampled system activity (270.18ms elapsed) ***
+E-Cluster HW active frequency: 1470 MHz
+E-Cluster HW active residency:  99.94%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 363 mW
+GPU Power: 544 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 544 mW
+*** Sampled system activity (270.39ms elapsed) ***
+E-Cluster HW active frequency: 1463 MHz
+E-Cluster HW active residency:  73.95%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 240 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.89%
+GPU Power: 544 mW
+*** Sampled system activity (269.53ms elapsed) ***
+E-Cluster HW active frequency: 1177 MHz
+E-Cluster HW active residency:  49.77%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 545 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 545 mW
+*** Sampled system activity (269.58ms elapsed) ***
+E-Cluster HW active frequency: 1223 MHz
+E-Cluster HW active residency:  57.58%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 549 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 549 mW
+*** Sampled system activity (267.79ms elapsed) ***
+E-Cluster HW active frequency: 1344 MHz
+E-Cluster HW active residency:  39.17%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (270.22ms elapsed) ***
+E-Cluster HW active frequency: 1300 MHz
+E-Cluster HW active residency:  66.80%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 189 mW
+GPU Power: 544 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.88%
+GPU Power: 588 mW
+*** Sampled system activity (270.60ms elapsed) ***
+E-Cluster HW active frequency: 1212 MHz
+E-Cluster HW active residency:  57.63%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 591 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 543 mW
+*** Sampled system activity (270.34ms elapsed) ***
+E-Cluster HW active frequency: 1220 MHz
+E-Cluster HW active residency:  35.78%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 92 mW
+GPU Power: 544 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 544 mW
+*** Sampled system activity (267.40ms elapsed) ***
+E-Cluster HW active frequency: 1249 MHz
+E-Cluster HW active residency:  33.31%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 120 mW
+GPU Power: 539 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 539 mW
+*** Sampled system activity (268.31ms elapsed) ***
+E-Cluster HW active frequency: 1216 MHz
+E-Cluster HW active residency:  42.27%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 205 mW
+GPU Power: 548 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 548 mW
+*** Sampled system activity (268.45ms elapsed) ***
+E-Cluster HW active frequency: 1321 MHz
+E-Cluster HW active residency:  67.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 183 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (266.75ms elapsed) ***
+E-Cluster HW active frequency: 1221 MHz
+E-Cluster HW active residency:  40.44%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 86 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (267.00ms elapsed) ***
+E-Cluster HW active frequency: 1305 MHz
+E-Cluster HW active residency:  48.16%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 116 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (267.48ms elapsed) ***
+E-Cluster HW active frequency: 1487 MHz
+E-Cluster HW active residency:  29.51%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 228 mW
+GPU Power: 445 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  78.12%
+GPU Power: 445 mW
+*** Sampled system activity (260.16ms elapsed) ***
+E-Cluster HW active frequency: 1567 MHz
+E-Cluster HW active residency:  26.36%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 173 mW
+GPU Power: 619 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 619 mW
+*** Sampled system activity (269.27ms elapsed) ***
+E-Cluster HW active frequency: 1350 MHz
+E-Cluster HW active residency:  56.76%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 201 mW
+GPU Power: 583 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 583 mW
+*** Sampled system activity (268.85ms elapsed) ***
+E-Cluster HW active frequency: 1327 MHz
+E-Cluster HW active residency:  51.78%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 138 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (270.10ms elapsed) ***
+E-Cluster HW active frequency: 1393 MHz
+E-Cluster HW active residency:  48.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 159 mW
+GPU Power: 585 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 585 mW
+*** Sampled system activity (268.79ms elapsed) ***
+E-Cluster HW active frequency: 1454 MHz
+E-Cluster HW active residency:  46.59%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 141 mW
+GPU Power: 584 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 621 mW
+*** Sampled system activity (268.96ms elapsed) ***
+E-Cluster HW active frequency: 1384 MHz
+E-Cluster HW active residency:  46.09%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 134 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 584 mW
+*** Sampled system activity (265.58ms elapsed) ***
+E-Cluster HW active frequency: 1498 MHz
+E-Cluster HW active residency:  61.42%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 245 mW
+GPU Power: 591 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (266.65ms elapsed) ***
+E-Cluster HW active frequency: 1294 MHz
+E-Cluster HW active residency:  49.34%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 116 mW
+GPU Power: 581 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 626 mW
+*** Sampled system activity (268.66ms elapsed) ***
+E-Cluster HW active frequency: 1377 MHz
+E-Cluster HW active residency:  38.70%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 588 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 581 mW
+*** Sampled system activity (265.28ms elapsed) ***
+E-Cluster HW active frequency: 1261 MHz
+E-Cluster HW active residency:  50.34%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 117 mW
+GPU Power: 584 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 584 mW
+*** Sampled system activity (269.17ms elapsed) ***
+E-Cluster HW active frequency: 1296 MHz
+E-Cluster HW active residency:  61.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 609 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (269.84ms elapsed) ***
+E-Cluster HW active frequency: 1500 MHz
+E-Cluster HW active residency:  65.15%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 215 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (268.95ms elapsed) ***
+E-Cluster HW active frequency: 1424 MHz
+E-Cluster HW active residency:  44.15%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 119 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (269.07ms elapsed) ***
+E-Cluster HW active frequency: 1230 MHz
+E-Cluster HW active residency:  54.16%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 572 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 572 mW
+*** Sampled system activity (267.10ms elapsed) ***
+E-Cluster HW active frequency: 1598 MHz
+E-Cluster HW active residency:  27.97%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 135 mW
+GPU Power: 584 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 584 mW
+*** Sampled system activity (264.48ms elapsed) ***
+E-Cluster HW active frequency: 1290 MHz
+E-Cluster HW active residency:  49.48%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 125 mW
+GPU Power: 586 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 586 mW
+*** Sampled system activity (268.88ms elapsed) ***
+E-Cluster HW active frequency: 1421 MHz
+E-Cluster HW active residency:  33.94%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 201 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (266.65ms elapsed) ***
+E-Cluster HW active frequency: 1425 MHz
+E-Cluster HW active residency:  41.23%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 135 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (268.86ms elapsed) ***
+E-Cluster HW active frequency: 1262 MHz
+E-Cluster HW active residency:  46.32%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 573 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 573 mW
+*** Sampled system activity (268.23ms elapsed) ***
+E-Cluster HW active frequency: 1278 MHz
+E-Cluster HW active residency:  53.97%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 608 mW
+*** Sampled system activity (267.59ms elapsed) ***
+E-Cluster HW active frequency: 1288 MHz
+E-Cluster HW active residency:  53.32%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 120 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 568 mW
+*** Sampled system activity (268.83ms elapsed) ***
+E-Cluster HW active frequency: 1640 MHz
+E-Cluster HW active residency:  47.25%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 242 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (265.79ms elapsed) ***
+E-Cluster HW active frequency: 1385 MHz
+E-Cluster HW active residency:  33.21%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 120 mW
+GPU Power: 579 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (268.51ms elapsed) ***
+E-Cluster HW active frequency: 1350 MHz
+E-Cluster HW active residency:  35.10%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (267.77ms elapsed) ***
+E-Cluster HW active frequency: 1297 MHz
+E-Cluster HW active residency:  52.04%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 564 mW
+*** Sampled system activity (267.47ms elapsed) ***
+E-Cluster HW active frequency: 1465 MHz
+E-Cluster HW active residency:  51.29%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 213 mW
+GPU Power: 613 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (267.36ms elapsed) ***
+E-Cluster HW active frequency: 1270 MHz
+E-Cluster HW active residency:  58.00%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (268.75ms elapsed) ***
+E-Cluster HW active frequency: 1278 MHz
+E-Cluster HW active residency:  48.34%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 346 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (269.72ms elapsed) ***
+E-Cluster HW active frequency: 1527 MHz
+E-Cluster HW active residency:  55.43%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 148 mW
+GPU Power: 786 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (266.82ms elapsed) ***
+E-Cluster HW active frequency: 1190 MHz
+E-Cluster HW active residency:  44.31%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 97 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (268.20ms elapsed) ***
+E-Cluster HW active frequency: 1336 MHz
+E-Cluster HW active residency:  68.85%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 186 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (268.38ms elapsed) ***
+E-Cluster HW active frequency: 1219 MHz
+E-Cluster HW active residency:  34.72%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 93 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 600 mW
+*** Sampled system activity (269.30ms elapsed) ***
+E-Cluster HW active frequency: 1319 MHz
+E-Cluster HW active residency:  49.57%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 564 mW
+*** Sampled system activity (268.98ms elapsed) ***
+E-Cluster HW active frequency: 1222 MHz
+E-Cluster HW active residency:  33.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 89 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (267.50ms elapsed) ***
+E-Cluster HW active frequency: 1619 MHz
+E-Cluster HW active residency:  44.92%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 153 mW
+GPU Power: 564 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (268.52ms elapsed) ***
+E-Cluster HW active frequency: 1298 MHz
+E-Cluster HW active residency:  64.86%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 164 mW
+GPU Power: 600 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (268.50ms elapsed) ***
+E-Cluster HW active frequency: 1295 MHz
+E-Cluster HW active residency:  50.49%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (268.64ms elapsed) ***
+E-Cluster HW active frequency: 1251 MHz
+E-Cluster HW active residency:  47.16%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (268.03ms elapsed) ***
+E-Cluster HW active frequency: 1195 MHz
+E-Cluster HW active residency:  40.22%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 93 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (269.70ms elapsed) ***
+E-Cluster HW active frequency: 1267 MHz
+E-Cluster HW active residency:  40.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 111 mW
+GPU Power: 549 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.12%
+GPU Power: 582 mW
+*** Sampled system activity (268.35ms elapsed) ***
+E-Cluster HW active frequency: 1347 MHz
+E-Cluster HW active residency:  51.86%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 227 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (268.81ms elapsed) ***
+E-Cluster HW active frequency: 1310 MHz
+E-Cluster HW active residency:  57.69%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 141 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (269.56ms elapsed) ***
+E-Cluster HW active frequency: 1279 MHz
+E-Cluster HW active residency:  24.11%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 93 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (268.73ms elapsed) ***
+E-Cluster HW active frequency: 1285 MHz
+E-Cluster HW active residency:  53.45%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 599 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 566 mW
+*** Sampled system activity (268.60ms elapsed) ***
+E-Cluster HW active frequency: 1253 MHz
+E-Cluster HW active residency:  39.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 93 mW
+GPU Power: 421 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (270.28ms elapsed) ***
+E-Cluster HW active frequency: 1719 MHz
+E-Cluster HW active residency:  73.99%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 340 mW
+GPU Power: 699 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 566 mW
+*** Sampled system activity (270.41ms elapsed) ***
+E-Cluster HW active frequency: 1547 MHz
+E-Cluster HW active residency:  51.74%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 189 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (267.87ms elapsed) ***
+E-Cluster HW active frequency: 1492 MHz
+E-Cluster HW active residency:  46.14%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 231 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.81%
+GPU Power: 586 mW
+*** Sampled system activity (268.44ms elapsed) ***
+E-Cluster HW active frequency: 1339 MHz
+E-Cluster HW active residency:  47.14%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 566 mW
+*** Sampled system activity (266.97ms elapsed) ***
+E-Cluster HW active frequency: 1511 MHz
+E-Cluster HW active residency:  62.96%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 172 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 562 mW
+*** Sampled system activity (265.37ms elapsed) ***
+E-Cluster HW active frequency: 1293 MHz
+E-Cluster HW active residency:  50.84%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 162 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (268.94ms elapsed) ***
+E-Cluster HW active frequency: 1368 MHz
+E-Cluster HW active residency:  45.18%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (268.24ms elapsed) ***
+E-Cluster HW active frequency: 1262 MHz
+E-Cluster HW active residency:  52.91%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (264.27ms elapsed) ***
+E-Cluster HW active frequency: 1275 MHz
+E-Cluster HW active residency:  35.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 98 mW
+GPU Power: 564 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 564 mW
+*** Sampled system activity (266.24ms elapsed) ***
+E-Cluster HW active frequency: 1427 MHz
+E-Cluster HW active residency:  59.16%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 184 mW
+GPU Power: 560 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 556 mW
+*** Sampled system activity (270.57ms elapsed) ***
+E-Cluster HW active frequency: 1324 MHz
+E-Cluster HW active residency:  39.25%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 103 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 562 mW
+*** Sampled system activity (267.29ms elapsed) ***
+E-Cluster HW active frequency: 1178 MHz
+E-Cluster HW active residency:  51.33%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 105 mW
+GPU Power: 595 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (267.67ms elapsed) ***
+E-Cluster HW active frequency: 1402 MHz
+E-Cluster HW active residency:  41.24%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 560 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 560 mW
+*** Sampled system activity (269.14ms elapsed) ***
+E-Cluster HW active frequency: 1444 MHz
+E-Cluster HW active residency:  46.81%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 130 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (269.46ms elapsed) ***
+E-Cluster HW active frequency: 1276 MHz
+E-Cluster HW active residency:  55.33%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 137 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (267.02ms elapsed) ***
+E-Cluster HW active frequency: 1220 MHz
+E-Cluster HW active residency:  54.25%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 142 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 566 mW
+*** Sampled system activity (269.71ms elapsed) ***
+E-Cluster HW active frequency: 1312 MHz
+E-Cluster HW active residency:  33.85%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 586 mW
+*** Sampled system activity (270.32ms elapsed) ***
+E-Cluster HW active frequency: 1338 MHz
+E-Cluster HW active residency:  45.92%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 159 mW
+GPU Power: 547 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 547 mW
+*** Sampled system activity (269.08ms elapsed) ***
+E-Cluster HW active frequency: 1208 MHz
+E-Cluster HW active residency:  49.35%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (267.12ms elapsed) ***
+E-Cluster HW active frequency: 1381 MHz
+E-Cluster HW active residency:  67.18%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 187 mW
+GPU Power: 588 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (268.41ms elapsed) ***
+E-Cluster HW active frequency: 1297 MHz
+E-Cluster HW active residency:  58.77%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (268.66ms elapsed) ***
+E-Cluster HW active frequency: 1282 MHz
+E-Cluster HW active residency:  43.29%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 562 mW
+*** Sampled system activity (266.61ms elapsed) ***
+E-Cluster HW active frequency: 1173 MHz
+E-Cluster HW active residency:  37.76%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 98 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (268.79ms elapsed) ***
+E-Cluster HW active frequency: 1223 MHz
+E-Cluster HW active residency:  34.34%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 97 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (269.34ms elapsed) ***
+E-Cluster HW active frequency: 1746 MHz
+E-Cluster HW active residency:  53.56%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 995 mW
+GPU Power: 542 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  96.82%
+GPU Power: 542 mW
+*** Sampled system activity (258.39ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 286 mW
+GPU Power: 557 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 592 mW
+*** Sampled system activity (265.24ms elapsed) ***
+E-Cluster HW active frequency: 1756 MHz
+E-Cluster HW active residency:  55.02%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 177 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 562 mW
+*** Sampled system activity (266.02ms elapsed) ***
+E-Cluster HW active frequency: 1536 MHz
+E-Cluster HW active residency:  41.93%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 1522 mW
+GPU Power: 571 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 538 mW
+*** Sampled system activity (257.47ms elapsed) ***
+E-Cluster HW active frequency: 1340 MHz
+E-Cluster HW active residency:  10.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 1154 mW
+GPU Power: 602 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 602 mW
+*** Sampled system activity (262.00ms elapsed) ***
+E-Cluster HW active frequency: 1519 MHz
+E-Cluster HW active residency:  43.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 229 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (268.29ms elapsed) ***
+E-Cluster HW active frequency: 1273 MHz
+E-Cluster HW active residency:  56.43%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (267.67ms elapsed) ***
+E-Cluster HW active frequency: 1304 MHz
+E-Cluster HW active residency:  29.32%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 105 mW
+GPU Power: 560 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 560 mW
+*** Sampled system activity (268.51ms elapsed) ***
+E-Cluster HW active frequency: 1476 MHz
+E-Cluster HW active residency:  43.37%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 156 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (263.62ms elapsed) ***
+E-Cluster HW active frequency: 1350 MHz
+E-Cluster HW active residency:  59.95%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 137 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 561 mW
+*** Sampled system activity (267.87ms elapsed) ***
+E-Cluster HW active frequency: 1459 MHz
+E-Cluster HW active residency:  57.40%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 228 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (267.86ms elapsed) ***
+E-Cluster HW active frequency: 1362 MHz
+E-Cluster HW active residency:  61.01%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 175 mW
+GPU Power: 538 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.83%
+GPU Power: 538 mW
+*** Sampled system activity (267.59ms elapsed) ***
+E-Cluster HW active frequency: 1319 MHz
+E-Cluster HW active residency:  41.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 105 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (268.21ms elapsed) ***
+E-Cluster HW active frequency: 1202 MHz
+E-Cluster HW active residency:  85.27%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 149 mW
+GPU Power: 548 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 548 mW
+*** Sampled system activity (268.48ms elapsed) ***
+E-Cluster HW active frequency: 1420 MHz
+E-Cluster HW active residency:  44.07%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 596 mW
+*** Sampled system activity (269.80ms elapsed) ***
+E-Cluster HW active frequency: 1501 MHz
+E-Cluster HW active residency:  62.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 208 mW
+GPU Power: 549 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 537 mW
+*** Sampled system activity (269.52ms elapsed) ***
+E-Cluster HW active frequency: 1280 MHz
+E-Cluster HW active residency:  44.94%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 100 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (268.87ms elapsed) ***
+E-Cluster HW active frequency: 1196 MHz
+E-Cluster HW active residency:  62.95%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 617 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (268.37ms elapsed) ***
+E-Cluster HW active frequency: 1261 MHz
+E-Cluster HW active residency:  44.21%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 592 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 592 mW
+*** Sampled system activity (268.65ms elapsed) ***
+E-Cluster HW active frequency: 1330 MHz
+E-Cluster HW active residency:  75.91%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 205 mW
+GPU Power: 573 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.48%
+GPU Power: 573 mW
+*** Sampled system activity (269.02ms elapsed) ***
+E-Cluster HW active frequency: 1384 MHz
+E-Cluster HW active residency:  51.72%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 160 mW
+GPU Power: 584 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 584 mW
+*** Sampled system activity (265.18ms elapsed) ***
+E-Cluster HW active frequency: 1197 MHz
+E-Cluster HW active residency:  56.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 117 mW
+GPU Power: 596 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 596 mW
+*** Sampled system activity (269.10ms elapsed) ***
+E-Cluster HW active frequency: 1350 MHz
+E-Cluster HW active residency:  43.39%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 111 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.81%
+GPU Power: 609 mW
+*** Sampled system activity (273.64ms elapsed) ***
+E-Cluster HW active frequency: 1334 MHz
+E-Cluster HW active residency:  51.32%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 153 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  98.99%
+GPU Power: 559 mW
+*** Sampled system activity (268.11ms elapsed) ***
+E-Cluster HW active frequency: 1412 MHz
+E-Cluster HW active residency:  69.80%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 213 mW
+GPU Power: 604 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (270.38ms elapsed) ***
+E-Cluster HW active frequency: 1587 MHz
+E-Cluster HW active residency:  60.95%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 174 mW
+GPU Power: 300 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 581 mW
+*** Sampled system activity (267.75ms elapsed) ***
+E-Cluster HW active frequency: 1524 MHz
+E-Cluster HW active residency:  63.27%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 168 mW
+GPU Power: 881 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 598 mW
+*** Sampled system activity (264.92ms elapsed) ***
+E-Cluster HW active frequency: 1384 MHz
+E-Cluster HW active residency:  50.36%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 121 mW
+GPU Power: 589 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 589 mW
+*** Sampled system activity (268.16ms elapsed) ***
+E-Cluster HW active frequency: 1238 MHz
+E-Cluster HW active residency:  54.11%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (264.67ms elapsed) ***
+E-Cluster HW active frequency: 1350 MHz
+E-Cluster HW active residency:  74.41%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 193 mW
+GPU Power: 586 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 586 mW
+*** Sampled system activity (268.37ms elapsed) ***
+E-Cluster HW active frequency: 1380 MHz
+E-Cluster HW active residency:  57.33%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 142 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (268.66ms elapsed) ***
+E-Cluster HW active frequency: 1303 MHz
+E-Cluster HW active residency:  51.64%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 577 mW
+*** Sampled system activity (267.51ms elapsed) ***
+E-Cluster HW active frequency: 1604 MHz
+E-Cluster HW active residency:  44.23%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 176 mW
+GPU Power: 572 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 572 mW
+*** Sampled system activity (266.83ms elapsed) ***
+E-Cluster HW active frequency: 1261 MHz
+E-Cluster HW active residency:  65.58%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 581 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 581 mW
+*** Sampled system activity (271.59ms elapsed) ***
+E-Cluster HW active frequency: 1863 MHz
+E-Cluster HW active residency:  70.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 342 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  98.23%
+GPU Power: 600 mW
+*** Sampled system activity (269.45ms elapsed) ***
+E-Cluster HW active frequency: 1401 MHz
+E-Cluster HW active residency:  54.22%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 122 mW
+GPU Power: 575 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 575 mW
+*** Sampled system activity (269.69ms elapsed) ***
+E-Cluster HW active frequency: 1270 MHz
+E-Cluster HW active residency:  57.90%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 122 mW
+GPU Power: 604 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (268.77ms elapsed) ***
+E-Cluster HW active frequency: 1418 MHz
+E-Cluster HW active residency:  56.43%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 190 mW
+GPU Power: 573 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 573 mW
+*** Sampled system activity (263.83ms elapsed) ***
+E-Cluster HW active frequency: 1635 MHz
+E-Cluster HW active residency:  49.10%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 231 mW
+GPU Power: 591 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 591 mW
+*** Sampled system activity (267.21ms elapsed) ***
+E-Cluster HW active frequency: 1712 MHz
+E-Cluster HW active residency:  80.19%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 326 mW
+GPU Power: 539 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (265.82ms elapsed) ***
+E-Cluster HW active frequency: 1384 MHz
+E-Cluster HW active residency:  64.32%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 154 mW
+GPU Power: 579 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (266.32ms elapsed) ***
+E-Cluster HW active frequency: 1424 MHz
+E-Cluster HW active residency:  62.02%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 158 mW
+GPU Power: 608 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.47%
+GPU Power: 574 mW
+*** Sampled system activity (268.37ms elapsed) ***
+E-Cluster HW active frequency: 1602 MHz
+E-Cluster HW active residency:  48.58%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 324 mW
+GPU Power: 540 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  96.11%
+GPU Power: 540 mW
+*** Sampled system activity (267.47ms elapsed) ***
+E-Cluster HW active frequency: 1468 MHz
+E-Cluster HW active residency:  60.52%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 194 mW
+GPU Power: 542 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 579 mW
+*** Sampled system activity (263.69ms elapsed) ***
+E-Cluster HW active frequency: 1508 MHz
+E-Cluster HW active residency:  43.18%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 258 mW
+GPU Power: 626 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 588 mW
+*** Sampled system activity (271.52ms elapsed) ***
+E-Cluster HW active frequency: 1196 MHz
+E-Cluster HW active residency:  52.47%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 122 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (268.71ms elapsed) ***
+E-Cluster HW active frequency: 1349 MHz
+E-Cluster HW active residency:  40.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (269.83ms elapsed) ***
+E-Cluster HW active frequency: 1328 MHz
+E-Cluster HW active residency:  55.72%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 130 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (269.10ms elapsed) ***
+E-Cluster HW active frequency: 1376 MHz
+E-Cluster HW active residency:  55.50%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 149 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 587 mW
+*** Sampled system activity (270.18ms elapsed) ***
+E-Cluster HW active frequency: 1293 MHz
+E-Cluster HW active residency:  60.39%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 229 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.73%
+GPU Power: 559 mW
+*** Sampled system activity (268.68ms elapsed) ***
+E-Cluster HW active frequency: 1216 MHz
+E-Cluster HW active residency:  42.21%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 97 mW
+GPU Power: 592 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (269.70ms elapsed) ***
+E-Cluster HW active frequency: 1501 MHz
+E-Cluster HW active residency:  48.17%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 167 mW
+GPU Power: 571 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (267.36ms elapsed) ***
+E-Cluster HW active frequency: 1244 MHz
+E-Cluster HW active residency:  60.19%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 120 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 561 mW
+*** Sampled system activity (268.22ms elapsed) ***
+E-Cluster HW active frequency: 1304 MHz
+E-Cluster HW active residency:  47.23%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (268.97ms elapsed) ***
+E-Cluster HW active frequency: 1489 MHz
+E-Cluster HW active residency:  43.59%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 223 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 561 mW
+*** Sampled system activity (268.68ms elapsed) ***
+E-Cluster HW active frequency: 1341 MHz
+E-Cluster HW active residency:  37.03%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 603 mW
+*** Sampled system activity (268.29ms elapsed) ***
+E-Cluster HW active frequency: 1204 MHz
+E-Cluster HW active residency:  57.46%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (269.87ms elapsed) ***
+E-Cluster HW active frequency: 1406 MHz
+E-Cluster HW active residency:  50.25%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (268.58ms elapsed) ***
+E-Cluster HW active frequency: 1710 MHz
+E-Cluster HW active residency:  66.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 223 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 566 mW
+*** Sampled system activity (265.08ms elapsed) ***
+E-Cluster HW active frequency: 1331 MHz
+E-Cluster HW active residency:  51.68%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 143 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 577 mW
+*** Sampled system activity (267.69ms elapsed) ***
+E-Cluster HW active frequency: 1264 MHz
+E-Cluster HW active residency:  52.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 120 mW
+GPU Power: 590 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.75%
+GPU Power: 557 mW
+*** Sampled system activity (268.69ms elapsed) ***
+E-Cluster HW active frequency: 1273 MHz
+E-Cluster HW active residency:  41.33%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (268.13ms elapsed) ***
+E-Cluster HW active frequency: 1276 MHz
+E-Cluster HW active residency:  57.39%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (265.46ms elapsed) ***
+E-Cluster HW active frequency: 1537 MHz
+E-Cluster HW active residency:  56.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 215 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 565 mW
+*** Sampled system activity (269.68ms elapsed) ***
+E-Cluster HW active frequency: 1238 MHz
+E-Cluster HW active residency:  48.92%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 133 mW
+GPU Power: 564 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 564 mW
+*** Sampled system activity (267.61ms elapsed) ***
+E-Cluster HW active frequency: 1314 MHz
+E-Cluster HW active residency:  51.99%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 1943 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 568 mW
+*** Sampled system activity (268.12ms elapsed) ***
+E-Cluster HW active frequency: 1670 MHz
+E-Cluster HW active residency:  36.21%
+P-Cluster HW active frequency: 4348 MHz
+P-Cluster HW active residency:  99.68%
+CPU Power: 7560 mW
+GPU Power: 619 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 619 mW
+*** Sampled system activity (266.64ms elapsed) ***
+E-Cluster HW active frequency: 1136 MHz
+E-Cluster HW active residency:  54.74%
+P-Cluster HW active frequency: 3660 MHz
+P-Cluster HW active residency:   6.47%
+CPU Power: 2775 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.30%
+GPU Power: 578 mW
+*** Sampled system activity (267.07ms elapsed) ***
+E-Cluster HW active frequency: 1357 MHz
+E-Cluster HW active residency:  74.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 195 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 562 mW
+*** Sampled system activity (267.31ms elapsed) ***
+E-Cluster HW active frequency: 1188 MHz
+E-Cluster HW active residency:  51.55%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (268.80ms elapsed) ***
+E-Cluster HW active frequency: 1317 MHz
+E-Cluster HW active residency:  62.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 138 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 588 mW
+*** Sampled system activity (268.60ms elapsed) ***
+E-Cluster HW active frequency: 1255 MHz
+E-Cluster HW active residency:  66.67%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 145 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.94%
+GPU Power: 551 mW
+*** Sampled system activity (267.08ms elapsed) ***
+E-Cluster HW active frequency: 1397 MHz
+E-Cluster HW active residency:  60.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 146 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (268.83ms elapsed) ***
+E-Cluster HW active frequency: 1349 MHz
+E-Cluster HW active residency:  72.88%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 227 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (264.56ms elapsed) ***
+E-Cluster HW active frequency: 1377 MHz
+E-Cluster HW active residency:  57.68%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 140 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 563 mW
+*** Sampled system activity (267.16ms elapsed) ***
+E-Cluster HW active frequency: 1466 MHz
+E-Cluster HW active residency:  66.03%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 172 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (267.26ms elapsed) ***
+E-Cluster HW active frequency: 1389 MHz
+E-Cluster HW active residency:  53.88%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 150 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (264.63ms elapsed) ***
+E-Cluster HW active frequency: 1617 MHz
+E-Cluster HW active residency:  81.17%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 287 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (266.97ms elapsed) ***
+E-Cluster HW active frequency: 1448 MHz
+E-Cluster HW active residency:  60.96%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 217 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.62%
+GPU Power: 562 mW
+*** Sampled system activity (269.84ms elapsed) ***
+E-Cluster HW active frequency: 1291 MHz
+E-Cluster HW active residency:  65.04%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 159 mW
+GPU Power: 537 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  98.41%
+GPU Power: 541 mW
+*** Sampled system activity (265.73ms elapsed) ***
+E-Cluster HW active frequency: 1230 MHz
+E-Cluster HW active residency:  56.45%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 128 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (268.36ms elapsed) ***
+E-Cluster HW active frequency: 1565 MHz
+E-Cluster HW active residency:  64.42%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 194 mW
+GPU Power: 589 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (269.04ms elapsed) ***
+E-Cluster HW active frequency: 1264 MHz
+E-Cluster HW active residency:  67.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 160 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (269.48ms elapsed) ***
+E-Cluster HW active frequency: 1438 MHz
+E-Cluster HW active residency:  67.51%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 252 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 553 mW
+*** Sampled system activity (268.40ms elapsed) ***
+E-Cluster HW active frequency: 1363 MHz
+E-Cluster HW active residency:  63.91%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 134 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (266.59ms elapsed) ***
+E-Cluster HW active frequency: 1332 MHz
+E-Cluster HW active residency:  57.78%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 143 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (267.84ms elapsed) ***
+E-Cluster HW active frequency: 1334 MHz
+E-Cluster HW active residency:  72.07%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 605 mW
+GPU Power: 556 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.81%
+GPU Power: 556 mW
+*** Sampled system activity (268.11ms elapsed) ***
+E-Cluster HW active frequency: 1603 MHz
+E-Cluster HW active residency:  63.97%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 186 mW
+GPU Power: 571 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (265.74ms elapsed) ***
+E-Cluster HW active frequency: 1364 MHz
+E-Cluster HW active residency:  66.19%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 196 mW
+GPU Power: 557 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 557 mW
+*** Sampled system activity (270.00ms elapsed) ***
+E-Cluster HW active frequency: 1211 MHz
+E-Cluster HW active residency:  52.15%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 544 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (269.81ms elapsed) ***
+E-Cluster HW active frequency: 1321 MHz
+E-Cluster HW active residency:  67.13%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 148 mW
+GPU Power: 549 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 549 mW
+*** Sampled system activity (268.66ms elapsed) ***
+E-Cluster HW active frequency: 1308 MHz
+E-Cluster HW active residency:  43.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (266.12ms elapsed) ***
+E-Cluster HW active frequency: 1380 MHz
+E-Cluster HW active residency:  69.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 195 mW
+GPU Power: 556 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 556 mW
+*** Sampled system activity (268.43ms elapsed) ***
+E-Cluster HW active frequency: 1352 MHz
+E-Cluster HW active residency:  47.19%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 142 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (266.39ms elapsed) ***
+E-Cluster HW active frequency: 1525 MHz
+E-Cluster HW active residency:  41.41%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 128 mW
+GPU Power: 593 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (268.35ms elapsed) ***
+E-Cluster HW active frequency: 1793 MHz
+E-Cluster HW active residency:  50.30%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 231 mW
+GPU Power: 540 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  98.07%
+GPU Power: 540 mW
+*** Sampled system activity (266.04ms elapsed) ***
+E-Cluster HW active frequency: 1264 MHz
+E-Cluster HW active residency:  38.84%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 105 mW
+GPU Power: 556 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 556 mW
+*** Sampled system activity (265.85ms elapsed) ***
+E-Cluster HW active frequency: 1428 MHz
+E-Cluster HW active residency:  68.30%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 267 mW
+GPU Power: 553 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.82%
+GPU Power: 553 mW
+*** Sampled system activity (270.04ms elapsed) ***
+E-Cluster HW active frequency: 1389 MHz
+E-Cluster HW active residency:  33.24%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (268.86ms elapsed) ***
+E-Cluster HW active frequency: 1521 MHz
+E-Cluster HW active residency:  35.56%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (267.25ms elapsed) ***
+E-Cluster HW active frequency: 1334 MHz
+E-Cluster HW active residency:  34.40%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 101 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (268.50ms elapsed) ***
+E-Cluster HW active frequency: 1243 MHz
+E-Cluster HW active residency:  54.10%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 547 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 547 mW
+*** Sampled system activity (267.66ms elapsed) ***
+E-Cluster HW active frequency: 1534 MHz
+E-Cluster HW active residency:  58.42%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 213 mW
+GPU Power: 572 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 572 mW
+*** Sampled system activity (267.86ms elapsed) ***
+E-Cluster HW active frequency: 1472 MHz
+E-Cluster HW active residency:  51.87%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 142 mW
+GPU Power: 601 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 638 mW
+*** Sampled system activity (267.90ms elapsed) ***
+E-Cluster HW active frequency: 1636 MHz
+E-Cluster HW active residency:  39.88%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 149 mW
+GPU Power: 593 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 593 mW
+*** Sampled system activity (267.54ms elapsed) ***
+E-Cluster HW active frequency: 1334 MHz
+E-Cluster HW active residency:  61.14%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 153 mW
+GPU Power: 594 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 594 mW
+*** Sampled system activity (265.36ms elapsed) ***
+E-Cluster HW active frequency: 1284 MHz
+E-Cluster HW active residency:  45.29%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 109 mW
+GPU Power: 588 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 588 mW
+*** Sampled system activity (271.45ms elapsed) ***
+E-Cluster HW active frequency: 1461 MHz
+E-Cluster HW active residency:  48.78%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 214 mW
+GPU Power: 612 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (270.56ms elapsed) ***
+E-Cluster HW active frequency: 1257 MHz
+E-Cluster HW active residency:  57.68%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 129 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 577 mW
+*** Sampled system activity (269.60ms elapsed) ***
+E-Cluster HW active frequency: 1350 MHz
+E-Cluster HW active residency:  58.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 593 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 593 mW
+*** Sampled system activity (268.69ms elapsed) ***
+E-Cluster HW active frequency: 1214 MHz
+E-Cluster HW active residency:  49.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 581 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 581 mW
+*** Sampled system activity (269.25ms elapsed) ***
+E-Cluster HW active frequency: 1402 MHz
+E-Cluster HW active residency:  47.08%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 134 mW
+GPU Power: 583 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 617 mW
+*** Sampled system activity (271.97ms elapsed) ***
+E-Cluster HW active frequency: 1816 MHz
+E-Cluster HW active residency:  42.99%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 265 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 581 mW
+*** Sampled system activity (266.52ms elapsed) ***
+E-Cluster HW active frequency: 1390 MHz
+E-Cluster HW active residency:  47.94%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 128 mW
+GPU Power: 619 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 585 mW
+*** Sampled system activity (266.92ms elapsed) ***
+E-Cluster HW active frequency: 1181 MHz
+E-Cluster HW active residency:  49.79%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 105 mW
+GPU Power: 547 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 581 mW
+*** Sampled system activity (268.17ms elapsed) ***
+E-Cluster HW active frequency: 1202 MHz
+E-Cluster HW active residency:  39.33%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 101 mW
+GPU Power: 612 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 574 mW
+*** Sampled system activity (267.83ms elapsed) ***
+E-Cluster HW active frequency: 1546 MHz
+E-Cluster HW active residency:  67.70%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 217 mW
+GPU Power: 586 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 586 mW
+*** Sampled system activity (263.28ms elapsed) ***
+E-Cluster HW active frequency: 1431 MHz
+E-Cluster HW active residency:  38.16%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 160 mW
+GPU Power: 593 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 593 mW
+*** Sampled system activity (269.03ms elapsed) ***
+E-Cluster HW active frequency: 1236 MHz
+E-Cluster HW active residency:  56.36%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (268.79ms elapsed) ***
+E-Cluster HW active frequency: 1171 MHz
+E-Cluster HW active residency:  45.81%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 97 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 577 mW
+*** Sampled system activity (271.23ms elapsed) ***
+E-Cluster HW active frequency: 1516 MHz
+E-Cluster HW active residency:  46.25%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 358 mW
+GPU Power: 546 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  96.33%
+GPU Power: 546 mW
+*** Sampled system activity (264.33ms elapsed) ***
+E-Cluster HW active frequency: 1597 MHz
+E-Cluster HW active residency:  57.60%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 201 mW
+GPU Power: 594 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 594 mW
+*** Sampled system activity (269.83ms elapsed) ***
+E-Cluster HW active frequency: 1872 MHz
+E-Cluster HW active residency:  32.32%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 215 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (265.81ms elapsed) ***
+E-Cluster HW active frequency: 1489 MHz
+E-Cluster HW active residency:  43.65%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 143 mW
+GPU Power: 572 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.55%
+GPU Power: 572 mW
+*** Sampled system activity (268.24ms elapsed) ***
+E-Cluster HW active frequency: 1322 MHz
+E-Cluster HW active residency:  55.20%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 127 mW
+GPU Power: 578 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 578 mW
+*** Sampled system activity (267.30ms elapsed) ***
+E-Cluster HW active frequency: 1213 MHz
+E-Cluster HW active residency:  85.17%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 135 mW
+GPU Power: 580 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 614 mW
+*** Sampled system activity (269.11ms elapsed) ***
+E-Cluster HW active frequency: 1471 MHz
+E-Cluster HW active residency:  64.60%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 223 mW
+GPU Power: 576 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (267.71ms elapsed) ***
+E-Cluster HW active frequency: 1257 MHz
+E-Cluster HW active residency:  50.14%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 138 mW
+GPU Power: 564 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 564 mW
+*** Sampled system activity (270.12ms elapsed) ***
+E-Cluster HW active frequency: 1234 MHz
+E-Cluster HW active residency:  41.36%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 107 mW
+GPU Power: 603 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (268.14ms elapsed) ***
+E-Cluster HW active frequency: 1423 MHz
+E-Cluster HW active residency:  49.77%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 269 mW
+GPU Power: 500 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  96.64%
+GPU Power: 548 mW
+*** Sampled system activity (260.30ms elapsed) ***
+E-Cluster HW active frequency: 1649 MHz
+E-Cluster HW active residency:  15.20%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 154 mW
+GPU Power: 599 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 588 mW
+*** Sampled system activity (270.32ms elapsed) ***
+E-Cluster HW active frequency: 1398 MHz
+E-Cluster HW active residency:  69.02%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 207 mW
+GPU Power: 562 mW
+ANE Power: 0 mW
+GPU HW active frequency: 795 MHz
+GPU HW active residency:  99.19%
+GPU Power: 562 mW
+*** Sampled system activity (261.74ms elapsed) ***
+E-Cluster HW active frequency: 1501 MHz
+E-Cluster HW active residency:  53.24%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 145 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 585 mW
+*** Sampled system activity (268.56ms elapsed) ***
+E-Cluster HW active frequency: 1187 MHz
+E-Cluster HW active residency:  53.24%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (265.63ms elapsed) ***
+E-Cluster HW active frequency: 1190 MHz
+E-Cluster HW active residency:  22.63%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 79 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 568 mW
+*** Sampled system activity (272.78ms elapsed) ***
+E-Cluster HW active frequency: 1381 MHz
+E-Cluster HW active residency:  44.53%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 150 mW
+GPU Power: 590 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (267.07ms elapsed) ***
+E-Cluster HW active frequency: 1563 MHz
+E-Cluster HW active residency:  59.05%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 225 mW
+GPU Power: 577 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 577 mW
+*** Sampled system activity (267.55ms elapsed) ***
+E-Cluster HW active frequency: 1383 MHz
+E-Cluster HW active residency:  25.26%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 561 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 561 mW
+*** Sampled system activity (269.04ms elapsed) ***
+E-Cluster HW active frequency: 1317 MHz
+E-Cluster HW active residency:  49.37%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 130 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (267.49ms elapsed) ***
+E-Cluster HW active frequency: 1332 MHz
+E-Cluster HW active residency:  52.11%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 120 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 565 mW
+*** Sampled system activity (266.22ms elapsed) ***
+E-Cluster HW active frequency: 1378 MHz
+E-Cluster HW active residency:  46.90%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 124 mW
+GPU Power: 575 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 575 mW
+*** Sampled system activity (266.92ms elapsed) ***
+E-Cluster HW active frequency: 1480 MHz
+E-Cluster HW active residency:  56.95%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 187 mW
+GPU Power: 569 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (269.98ms elapsed) ***
+E-Cluster HW active frequency: 1294 MHz
+E-Cluster HW active residency:  48.11%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 563 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 563 mW
+*** Sampled system activity (264.55ms elapsed) ***
+E-Cluster HW active frequency: 1249 MHz
+E-Cluster HW active residency:  36.41%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 98 mW
+GPU Power: 567 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 567 mW
+*** Sampled system activity (270.04ms elapsed) ***
+E-Cluster HW active frequency: 1316 MHz
+E-Cluster HW active residency:  38.47%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 115 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 600 mW
+*** Sampled system activity (270.55ms elapsed) ***
+E-Cluster HW active frequency: 1392 MHz
+E-Cluster HW active residency:  37.19%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 118 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (267.54ms elapsed) ***
+E-Cluster HW active frequency: 1451 MHz
+E-Cluster HW active residency:  39.65%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 187 mW
+GPU Power: 557 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 557 mW
+*** Sampled system activity (268.43ms elapsed) ***
+E-Cluster HW active frequency: 1423 MHz
+E-Cluster HW active residency:  40.75%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 123 mW
+GPU Power: 604 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (268.76ms elapsed) ***
+E-Cluster HW active frequency: 1203 MHz
+E-Cluster HW active residency:  63.30%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (269.00ms elapsed) ***
+E-Cluster HW active frequency: 1314 MHz
+E-Cluster HW active residency:  49.55%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 126 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (266.69ms elapsed) ***
+E-Cluster HW active frequency: 1347 MHz
+E-Cluster HW active residency:  40.18%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 574 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 574 mW
+*** Sampled system activity (270.54ms elapsed) ***
+E-Cluster HW active frequency: 1407 MHz
+E-Cluster HW active residency:  34.06%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 203 mW
+GPU Power: 554 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 554 mW
+*** Sampled system activity (268.30ms elapsed) ***
+E-Cluster HW active frequency: 1307 MHz
+E-Cluster HW active residency:  30.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 97 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (266.00ms elapsed) ***
+E-Cluster HW active frequency: 1375 MHz
+E-Cluster HW active residency:  57.58%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 233 mW
+GPU Power: 575 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 575 mW
+*** Sampled system activity (268.08ms elapsed) ***
+E-Cluster HW active frequency: 1280 MHz
+E-Cluster HW active residency:  52.65%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 560 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 593 mW
+*** Sampled system activity (268.33ms elapsed) ***
+E-Cluster HW active frequency: 1536 MHz
+E-Cluster HW active residency:  51.76%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 477 mW
+GPU Power: 566 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.93%
+GPU Power: 533 mW
+*** Sampled system activity (259.27ms elapsed) ***
+E-Cluster HW active frequency: 1824 MHz
+E-Cluster HW active residency:  20.70%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 617 mW
+GPU Power: 617 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 617 mW
+*** Sampled system activity (263.40ms elapsed) ***
+E-Cluster HW active frequency: 2229 MHz
+E-Cluster HW active residency:  37.45%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 440 mW
+GPU Power: 535 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 569 mW
+*** Sampled system activity (263.75ms elapsed) ***
+E-Cluster HW active frequency: 1758 MHz
+E-Cluster HW active residency:  56.68%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 190 mW
+GPU Power: 573 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 573 mW
+*** Sampled system activity (265.78ms elapsed) ***
+E-Cluster HW active frequency: 1502 MHz
+E-Cluster HW active residency:  56.42%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 147 mW
+GPU Power: 564 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 576 mW
+*** Sampled system activity (268.22ms elapsed) ***
+E-Cluster HW active frequency: 1482 MHz
+E-Cluster HW active residency:  66.54%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 216 mW
+GPU Power: 604 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (268.09ms elapsed) ***
+E-Cluster HW active frequency: 1828 MHz
+E-Cluster HW active residency:  56.92%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 295 mW
+GPU Power: 530 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 563 mW
+*** Sampled system activity (264.48ms elapsed) ***
+E-Cluster HW active frequency: 1957 MHz
+E-Cluster HW active residency:  51.09%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 253 mW
+GPU Power: 571 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 571 mW
+*** Sampled system activity (264.86ms elapsed) ***
+E-Cluster HW active frequency: 1967 MHz
+E-Cluster HW active residency:  53.80%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 223 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 570 mW
+*** Sampled system activity (265.38ms elapsed) ***
+E-Cluster HW active frequency: 1819 MHz
+E-Cluster HW active residency:  53.86%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 241 mW
+GPU Power: 565 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.67%
+GPU Power: 573 mW
+*** Sampled system activity (266.64ms elapsed) ***
+E-Cluster HW active frequency: 1703 MHz
+E-Cluster HW active residency:  69.06%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 454 mW
+GPU Power: 570 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 529 mW
+*** Sampled system activity (260.16ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 1138 mW
+GPU Power: 611 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 611 mW
+*** Sampled system activity (260.13ms elapsed) ***
+E-Cluster HW active frequency: 1508 MHz
+E-Cluster HW active residency:  21.98%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 161 mW
+GPU Power: 542 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 580 mW
+*** Sampled system activity (268.07ms elapsed) ***
+E-Cluster HW active frequency: 1157 MHz
+E-Cluster HW active residency:  30.43%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 90 mW
+GPU Power: 586 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (268.45ms elapsed) ***
+E-Cluster HW active frequency: 1302 MHz
+E-Cluster HW active residency:  34.83%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 555 mW
+*** Sampled system activity (268.61ms elapsed) ***
+E-Cluster HW active frequency: 1295 MHz
+E-Cluster HW active residency:  60.17%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 171 mW
+GPU Power: 555 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency:  99.88%
+GPU Power: 555 mW
+*** Sampled system activity (267.83ms elapsed) ***
+E-Cluster HW active frequency: 1286 MHz
+E-Cluster HW active residency:  32.49%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 101 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 568 mW
+*** Sampled system activity (267.95ms elapsed) ***
+E-Cluster HW active frequency: 1208 MHz
+E-Cluster HW active residency:  36.31%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 101 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (269.81ms elapsed) ***
+E-Cluster HW active frequency: 1260 MHz
+E-Cluster HW active residency:  38.46%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 96 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (266.50ms elapsed) ***
+E-Cluster HW active frequency: 1246 MHz
+E-Cluster HW active residency:  41.23%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 94 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 593 mW
+*** Sampled system activity (268.46ms elapsed) ***
+E-Cluster HW active frequency: 1334 MHz
+E-Cluster HW active residency:  48.23%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 160 mW
+GPU Power: 559 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 559 mW
+*** Sampled system activity (267.74ms elapsed) ***
+E-Cluster HW active frequency: 1437 MHz
+E-Cluster HW active residency:  42.47%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 134 mW
+GPU Power: 557 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 557 mW
+*** Sampled system activity (265.65ms elapsed) ***
+E-Cluster HW active frequency: 1513 MHz
+E-Cluster HW active residency:  30.86%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 294 mW
+GPU Power: 568 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 535 mW
+*** Sampled system activity (259.71ms elapsed) ***
+E-Cluster HW active frequency: 1381 MHz
+E-Cluster HW active residency:  22.64%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 142 mW
+GPU Power: 574 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 574 mW
+*** Sampled system activity (265.77ms elapsed) ***
+E-Cluster HW active frequency: 1202 MHz
+E-Cluster HW active residency:   7.97%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 75 mW
+GPU Power: 557 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 557 mW
+*** Sampled system activity (270.09ms elapsed) ***
+E-Cluster HW active frequency: 1413 MHz
+E-Cluster HW active residency:  65.42%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 204 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 552 mW
+*** Sampled system activity (270.04ms elapsed) ***
+E-Cluster HW active frequency: 1330 MHz
+E-Cluster HW active residency:  41.50%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 104 mW
+GPU Power: 552 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 585 mW
+*** Sampled system activity (268.73ms elapsed) ***
+E-Cluster HW active frequency: 1253 MHz
+E-Cluster HW active residency:  37.42%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 108 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (269.15ms elapsed) ***
+E-Cluster HW active frequency: 1293 MHz
+E-Cluster HW active residency:  41.66%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 111 mW
+GPU Power: 550 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 550 mW
+*** Sampled system activity (268.65ms elapsed) ***
+E-Cluster HW active frequency: 1351 MHz
+E-Cluster HW active residency:  39.59%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 101 mW
+GPU Power: 584 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (267.71ms elapsed) ***
+E-Cluster HW active frequency: 1443 MHz
+E-Cluster HW active residency:  62.57%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 179 mW
+GPU Power: 557 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 557 mW
+*** Sampled system activity (266.93ms elapsed) ***
+E-Cluster HW active frequency: 1245 MHz
+E-Cluster HW active residency:  32.82%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 90 mW
+GPU Power: 558 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 558 mW
+*** Sampled system activity (268.71ms elapsed) ***
+E-Cluster HW active frequency: 1304 MHz
+E-Cluster HW active residency:  42.74%
+P-Cluster HW active frequency: 0 MHz
+P-Cluster HW active residency:   0.00%
+CPU Power: 112 mW
+GPU Power: 551 mW
+ANE Power: 0 mW
+GPU HW active frequency: 796 MHz
+GPU HW active residency: 100.00%
+GPU Power: 551 mW
+*** Sampled system activity (265.43ms elapsed) ***
+E-Cluster HW active frequency: 1610 MHz
+E-Cluster HW active residency:  16.68%
+P-Cluster HW active frequency: 3466 MHz
+P-Cluster HW active residency:   6.20%
+CPU Power: 2023 mW
+GPU Power: 139 mW
+ANE Power: 0 mW
+GPU HW active frequency: 794 MHz
+GPU HW active residency:  24.68%
+GPU Power: 139 mW
+*** Sampled system activity (257.17ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 3887 MHz
+P-Cluster HW active residency:  38.45%
+CPU Power: 3025 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 755 MHz
+GPU HW active residency:   0.70%
+GPU Power: 0 mW
+*** Sampled system activity (255.05ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 3957 MHz
+P-Cluster HW active residency:  90.16%
+CPU Power: 3689 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 757 MHz
+GPU HW active residency:   0.70%
+GPU Power: 0 mW
+*** Sampled system activity (256.49ms elapsed) ***
+E-Cluster HW active frequency: 0 MHz
+E-Cluster HW active residency:   0.00%
+P-Cluster HW active frequency: 4290 MHz
+P-Cluster HW active residency:  99.36%
+CPU Power: 4511 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+GPU HW active frequency: 772 MHz
+GPU HW active residency:   1.02%
+GPU Power: 0 mW
