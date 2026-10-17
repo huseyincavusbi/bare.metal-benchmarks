@@ -38,6 +38,44 @@
           }
         }
       }
+    },
+    {
+      "folder": "10-17-2026-1511-baseline-360m",
+      "name": "10-17-2026-1511-baseline-360m",
+      "date": "10-17-2026",
+      "kind": "baseline",
+      "version": "v0.1.1",
+      "commit": "ae5028f",
+      "models": [
+        "smollm2-360m-instruct"
+      ],
+      "engines": [
+        "bare.metal",
+        "llama.cpp",
+        "mlx",
+        "torch-mps"
+      ],
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross,sweep,aggregate",
+      "headline": {
+        "smollm2-360m-instruct": {
+          "bare.metal": {
+            "prefill_tok_s": 11.159,
+            "decode_tok_s": 8.411
+          },
+          "llama.cpp": {
+            "prefill_tok_s": 3674.943171,
+            "decode_tok_s": 100.689286
+          },
+          "mlx": {
+            "prefill_tok_s": 2690.9223120519896,
+            "decode_tok_s": 97.24427660063269
+          },
+          "torch-mps": {
+            "prefill_tok_s": 1341.3799258552244,
+            "decode_tok_s": 46.808433632087706
+          }
+        }
+      }
     }
   ]
 }
