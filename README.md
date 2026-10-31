@@ -30,6 +30,7 @@ Every folder under `runs/` contains `run.json` (provenance),
 | [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-135m | q4 | 112.6 / 44.8 | 7955 (llama.cpp) / 359 (mlx) | x71 / x8 |
 | [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-360m-instruct | bf16 | 136.3 / 33.7 | 3657 (llama.cpp) / 108 (llama.cpp) | x27 / x3 |
 | [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-360m-instruct | q4 | 86.7 / 38.7 | 3657 (llama.cpp) / 230 (mlx) | x42 / x6 |
+| [`10-31-2026-2245-mmap-weights-8192`](runs/10-31-2026-2245-mmap-weights-8192) | `v0.1.1-101-g2eb12f3` | smollm2-135m | bf16 | 346.9 / 42.5 | 7834 (llama.cpp) / 178 (llama.cpp) | x23 / x4 |
 
 gap = best engine / bare.metal (x1000 means the best engine is 1000x faster).
 Quant rows compare different quantization schemes, so token match is informational.
@@ -47,6 +48,7 @@ Quant rows compare different quantization schemes, so token match is information
 | `10-31-2026-2235-mmap-weights-v1` | Llama-3.2-1B | 70.4 | 27.3 | 0.409 | x20 | x1 |
 | `10-31-2026-2235-mmap-weights-v1` | smollm2-135m | 355.1 | 42.5 | 0.098 | x19 | x5 |
 | `10-31-2026-2235-mmap-weights-v1` | smollm2-360m-instruct | 136.3 | 33.7 | 0.206 | x27 | x3 |
+| `10-31-2026-2245-mmap-weights-8192` | smollm2-135m | 346.9 | 42.5 | 0.098 | x23 | x4 |
 
 ## Training (bare.metal)
 
@@ -408,6 +410,26 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=cross,aggr
 | load ms | 455 | - | 219 |
 | J/token | 0.160 | 0.130 | 0.141 |
 | token match % | 1.6 | 1.6 | 1.6 |
+
+</details>
+
+<details><summary><code>10-31-2026-2245-mmap-weights-8192</code> &mdash; v0.1.1-101-g2eb12f3 &mdash; smollm2-135m</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train_steps=20,train_seq=64`
+
+#### smollm2-135m &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 346.9 | 7,834.3 | 4,874.0 | 3,948.8 |
+| decode tok/s | 42.5 | 178.2 | 117.2 | 92.9 |
+| TTFT ms | 254 | 11 | 18 | 23 |
+| ITL ms | 23.5 | 5.6 | 8.1 | 10.4 |
+| peak RSS MB | 615 | 403 | 705 | 504 |
+| peak GPU MB | 1,128 | - | 340 | 1,154 |
+| load ms | 471 | - | 238 | 357 |
+| J/token | 0.098 | 0.137 | 0.057 | 0.131 |
+| token match % | 100.0 | 100.0 | 28.1 | 30.5 |
 
 </details>
 

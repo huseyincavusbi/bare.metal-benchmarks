@@ -1950,6 +1950,80 @@
         "smollm2-135m": [],
         "smollm2-360m-instruct": []
       }
+    },
+    {
+      "folder": "10-31-2026-2245-mmap-weights-8192",
+      "name": "10-31-2026-2245-mmap-weights-8192",
+      "date": "10-31-2026",
+      "kind": "run",
+      "version": "v0.1.1-101-g2eb12f3",
+      "commit": "2eb12f3",
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train_steps=20,train_seq=64",
+      "models": [
+        "smollm2-135m"
+      ],
+      "engines": [
+        "bare.metal",
+        "llama.cpp",
+        "mlx",
+        "torch-mps"
+      ],
+      "headline": {
+        "smollm2-135m": {
+          "bf16": {
+            "bare.metal": {
+              "prefill_tok_s": 346.924,
+              "decode_tok_s": 42.517,
+              "ttft_ms": 253.736,
+              "itl_ms": 23.502,
+              "load_ms": 470.683,
+              "rss_mb": 615.0,
+              "gpu_mb": 1128.0,
+              "j_per_token": 0.0979,
+              "match_pct": 100.0
+            },
+            "llama.cpp": {
+              "prefill_tok_s": 7834.32707,
+              "decode_tok_s": 178.201694,
+              "ttft_ms": 11.233,
+              "itl_ms": 5.612,
+              "load_ms": null,
+              "rss_mb": 403.0,
+              "gpu_mb": null,
+              "j_per_token": 0.1373,
+              "match_pct": 100.0
+            },
+            "mlx": {
+              "prefill_tok_s": 4874.02984580663,
+              "decode_tok_s": 117.24705275815886,
+              "ttft_ms": 18.0548750795424,
+              "itl_ms": 8.115290896967053,
+              "load_ms": 237.953,
+              "rss_mb": 705.0,
+              "gpu_mb": 340.0,
+              "j_per_token": 0.0569,
+              "match_pct": 28.1
+            },
+            "torch-mps": {
+              "prefill_tok_s": 3948.7780582506034,
+              "decode_tok_s": 92.90087676457001,
+              "ttft_ms": 22.51445804722607,
+              "itl_ms": 10.447958018630743,
+              "load_ms": 356.611,
+              "rss_mb": 504.0,
+              "gpu_mb": 1154.0,
+              "j_per_token": 0.1312,
+              "match_pct": 30.5
+            }
+          }
+        }
+      },
+      "sweep": {
+        "smollm2-135m": []
+      },
+      "train": {
+        "smollm2-135m": []
+      }
     }
   ]
 }
