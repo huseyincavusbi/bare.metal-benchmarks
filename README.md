@@ -31,6 +31,12 @@ Every folder under `runs/` contains `run.json` (provenance),
 | [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-360m-instruct | bf16 | 136.3 / 33.7 | 3657 (llama.cpp) / 108 (llama.cpp) | x27 / x3 |
 | [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-360m-instruct | q4 | 86.7 / 38.7 | 3657 (llama.cpp) / 230 (mlx) | x42 / x6 |
 | [`10-31-2026-2245-mmap-weights-8192`](runs/10-31-2026-2245-mmap-weights-8192) | `v0.1.1-101-g2eb12f3` | smollm2-135m | bf16 | 346.9 / 42.5 | 7834 (llama.cpp) / 178 (llama.cpp) | x23 / x4 |
+| [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | Llama-3.2-1B | bf16 | 72.8 / 27.8 | 1418 (llama.cpp) / 41 (llama.cpp) | x19 / x1 |
+| [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | Llama-3.2-1B | q4 | 148.5 / 41.5 | 1463 (llama.cpp) / 111 (llama.cpp) | x10 / x3 |
+| [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-135m | bf16 | 383.1 / 43.2 | 7433 (llama.cpp) / 197 (mlx) | x19 / x5 |
+| [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-135m | q4 | 824.3 / 45.2 | 7866 (llama.cpp) / 409 (mlx) | x10 / x9 |
+| [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-360m-instruct | bf16 | 142.9 / 34.4 | 3717 (llama.cpp) / 100 (llama.cpp) | x26 / x3 |
+| [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-360m-instruct | q4 | 379.1 / 39.1 | 3680 (llama.cpp) / 247 (mlx) | x10 / x6 |
 
 gap = best engine / bare.metal (x1000 means the best engine is 1000x faster).
 Quant rows compare different quantization schemes, so token match is informational.
@@ -49,6 +55,9 @@ Quant rows compare different quantization schemes, so token match is information
 | `10-31-2026-2235-mmap-weights-v1` | smollm2-135m | 355.1 | 42.5 | 0.098 | x19 | x5 |
 | `10-31-2026-2235-mmap-weights-v1` | smollm2-360m-instruct | 136.3 | 33.7 | 0.206 | x27 | x3 |
 | `10-31-2026-2245-mmap-weights-8192` | smollm2-135m | 346.9 | 42.5 | 0.098 | x23 | x4 |
+| `10-31-2026-2313-quant-prefill-v1` | Llama-3.2-1B | 72.8 | 27.8 | 0.407 | x19 | x1 |
+| `10-31-2026-2313-quant-prefill-v1` | smollm2-135m | 383.1 | 43.2 | 0.103 | x19 | x5 |
+| `10-31-2026-2313-quant-prefill-v1` | smollm2-360m-instruct | 142.9 | 34.4 | 0.236 | x26 | x3 |
 
 ## Training (bare.metal)
 
@@ -430,6 +439,141 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train
 | load ms | 471 | - | 238 | 357 |
 | J/token | 0.098 | 0.137 | 0.057 | 0.131 |
 | token match % | 100.0 | 100.0 | 28.1 | 30.5 |
+
+</details>
+
+<details><summary><code>10-31-2026-2313-quant-prefill-v1</code> &mdash; v0.1.1-106-g23dc1ba &mdash; Llama-3.2-1B, smollm2-135m, smollm2-360m-instruct</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,q4,q8,stages=cross,sweep,aggregate,train_steps=20,train_seq=64`
+
+#### Llama-3.2-1B &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 72.8 | 1,417.6 | 1,032.2 | 849.9 |
+| decode tok/s | 27.8 | 41.2 | 34.8 | 33.9 |
+| TTFT ms | 1,223 | 63 | 86 | 105 |
+| ITL ms | 36.1 | 24.3 | 28.6 | 29.2 |
+| peak RSS MB | 3,460 | 2,662 | 1,157 | 595 |
+| peak GPU MB | 2,851 | - | 2,588 | 3,283 |
+| load ms | 4,595 | - | 1,743 | 2,795 |
+| J/token | 0.407 | 0.922 | 0.454 | 0.541 |
+| token match % | 100.0 | 100.0 | 1.6 | 100.0 |
+
+#### Llama-3.2-1B &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 148.5 | 1,463.4 | 1,157.1 |
+| decode tok/s | 41.5 | 110.9 | 100.1 |
+| TTFT ms | 600 | 61 | 77 |
+| ITL ms | 24.1 | 9.0 | 9.9 |
+| peak RSS MB | 4,149 | 953 | 1,464 |
+| peak GPU MB | 1,513 | - | 877 |
+| load ms | 3,643 | - | 917 |
+| J/token | 0.233 | 0.441 | 0.167 |
+| token match % | 2.3 | 2.3 | 2.3 |
+
+#### Llama-3.2-1B &middot; bare.metal context sweep
+
+| config | prompt | prefill tok/s | decode tok/s | TTFT ms | ITL ms |
+|---|---:|---:|---:|---:|---:|
+| `p128_bf16` | 128 | 73.0 | 26.2 | 1753 | 38.1 |
+| `p128_fp16` | 128 | 73.1 | 26.4 | 1751 | 37.9 |
+| `p128_q4` | 128 | 149.7 | 37.5 | 855 | 26.7 |
+| `p128_q8` | 128 | 178.6 | 33.1 | 717 | 30.2 |
+| `p512_bf16` | 512 | 72.7 | 15.8 | 7040 | 63.5 |
+| `p512_q4` | 512 | 145.8 | 19.2 | 3512 | 51.9 |
+| `p512_q8` | 512 | 172.1 | 17.9 | 2975 | 55.8 |
+| `p1024_bf16` | 1024 | 70.7 | 10.2 | 14483 | 97.6 |
+| `p1024_q4` | 1024 | 137.3 | 11.6 | 7457 | 86.1 |
+| `p1024_q8` | 1024 | 157.4 | 11.1 | 6504 | 89.9 |
+
+#### smollm2-135m &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 383.1 | 7,433.5 | 6,649.9 | 4,113.5 |
+| decode tok/s | 43.2 | 171.0 | 196.8 | 99.5 |
+| TTFT ms | 230 | 12 | 13 | 22 |
+| ITL ms | 23.1 | 5.8 | 5.0 | 9.9 |
+| peak RSS MB | 615 | 402 | 705 | 505 |
+| peak GPU MB | 468 | - | 340 | 1,154 |
+| load ms | 532 | - | 252 | 313 |
+| J/token | 0.103 | 0.112 | 0.060 | 0.131 |
+| token match % | 100.0 | 100.0 | 28.1 | 30.5 |
+
+#### smollm2-135m &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 824.3 | 7,865.9 | 6,983.3 |
+| decode tok/s | 45.2 | 245.8 | 408.6 |
+| TTFT ms | 107 | 11 | 13 |
+| ITL ms | 22.0 | 4.1 | 2.4 |
+| peak RSS MB | 470 | 223 | 515 |
+| peak GPU MB | 322 | - | 198 |
+| load ms | 272 | - | 158 |
+| J/token | 0.084 | 0.079 | 0.074 |
+| token match % | 6.2 | 6.2 | 6.2 |
+
+#### smollm2-135m &middot; bare.metal context sweep
+
+| config | prompt | prefill tok/s | decode tok/s | TTFT ms | ITL ms |
+|---|---:|---:|---:|---:|---:|
+| `p128_bf16` | 128 | 393.7 | 35.4 | 325 | 28.3 |
+| `p128_fp16` | 128 | 394.6 | 35.4 | 324 | 28.1 |
+| `p128_q4` | 128 | 883.5 | 36.9 | 145 | 27.0 |
+| `p128_q8` | 128 | 1001.2 | 36.4 | 128 | 27.3 |
+| `p512_bf16` | 512 | 411.3 | 13.2 | 1245 | 75.9 |
+| `p512_q4` | 512 | 958.4 | 13.4 | 534 | 74.7 |
+| `p512_q8` | 512 | 1092.1 | 13.3 | 469 | 75.0 |
+| `p1024_bf16` | 1024 | 394.2 | 7.2 | 2598 | 139.4 |
+| `p1024_q4` | 1024 | 860.4 | 7.2 | 1190 | 138.2 |
+| `p1024_q8` | 1024 | 996.7 | 7.2 | 1027 | 138.2 |
+
+#### smollm2-360m-instruct &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 142.9 | 3,717.1 | 1,846.9 | 2,062.0 |
+| decode tok/s | 34.4 | 100.3 | 83.7 | 62.3 |
+| TTFT ms | 616 | 24 | 48 | 43 |
+| ITL ms | 29.3 | 10.0 | 11.9 | 16.0 |
+| peak RSS MB | 1,563 | 867 | 1,160 | 506 |
+| peak GPU MB | 1,076 | - | 835 | 1,160 |
+| load ms | 1,335 | - | 451 | 911 |
+| J/token | 0.236 | 0.245 | 0.080 | 0.207 |
+| token match % | 100.0 | 100.0 | 19.5 | 19.5 |
+
+#### smollm2-360m-instruct &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 379.1 | 3,680.0 | 3,392.7 |
+| decode tok/s | 39.1 | 144.4 | 247.0 |
+| TTFT ms | 232 | 24 | 26 |
+| ITL ms | 25.6 | 6.9 | 4.0 |
+| peak RSS MB | 1,131 | 370 | 644 |
+| peak GPU MB | 643 | - | 349 |
+| load ms | 413 | - | 217 |
+| J/token | 0.121 | 0.103 | 0.152 |
+| token match % | 1.6 | 1.6 | 1.6 |
+
+#### smollm2-360m-instruct &middot; bare.metal context sweep
+
+| config | prompt | prefill tok/s | decode tok/s | TTFT ms | ITL ms |
+|---|---:|---:|---:|---:|---:|
+| `p128_bf16` | 128 | 145.3 | 29.2 | 881 | 34.1 |
+| `p128_fp16` | 128 | 145.6 | 29.2 | 879 | 34.0 |
+| `p128_q4` | 128 | 391.7 | 32.5 | 327 | 30.7 |
+| `p128_q8` | 128 | 433.8 | 31.6 | 295 | 31.5 |
+| `p512_bf16` | 512 | 145.1 | 11.8 | 3529 | 84.7 |
+| `p512_q4` | 512 | 393.4 | 12.2 | 1301 | 81.6 |
+| `p512_q8` | 512 | 432.5 | 12.1 | 1184 | 82.2 |
+| `p1024_bf16` | 1024 | 138.2 | 6.6 | 7410 | 152.6 |
+| `p1024_q4` | 1024 | 342.3 | 6.7 | 2992 | 149.1 |
+| `p1024_q8` | 1024 | 371.8 | 6.7 | 2754 | 149.9 |
 
 </details>
 
