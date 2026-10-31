@@ -103,6 +103,7 @@ def train_rows(body):
             "cfg": cfg,
             "precision": meta.get("precision"),
             "batch_size": conf.get("batch_size"),
+            "grad_accum": conf.get("grad_accum_steps", 1),
             "seq_len": conf.get("seq_len"),
             "steps": conf.get("steps"),
             "step_ms": num(t, "step_ms", "p50"),
@@ -221,13 +222,13 @@ def details_block(r, lines):
         train = r["train"].get(stem) or []
         if train:
             lines += [f"#### {stem} &middot; bare.metal training", "",
-                      "| cfg | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |",
-                      "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
+                      "| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |",
+                      "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
             for t in sorted(train, key=lambda x: (x.get("precision") or "", x.get("batch_size") or 0)):
                 par = "-" if t.get("parity_pass") is None else ("PASS" if t["parity_pass"] else "FAIL")
                 if t.get("parity_err") is not None:
                     par += f" ({t['parity_err']:.1e})"
-                lines.append(f"| `{t['cfg']}` | {t.get('precision')} | {t.get('batch_size')} "
+                lines.append(f"| `{t['cfg']}` | {t.get('precision')} | {t.get('batch_size')} | {t.get('grad_accum')} "
                              f"| {t.get('seq_len')} | {t.get('steps')} | {f(t.get('step_ms'))} "
                              f"| {f(t.get('tokens_per_s'))} "
                              f"| {f(t.get('loss_first'), 4)} -> {f(t.get('loss_last'), 4)} "
@@ -295,15 +296,15 @@ def readme(index):
     train_any = any((r["train"].get(stem) or []) for r in index["runs"] for stem in r["models"])
     if train_any:
         L += ["", "## Training (bare.metal)", "",
-              "| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |",
-              "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
+              "| run | model | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |",
+              "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
         for r in index["runs"]:
             for stem in r["models"]:
                 for t in (r["train"].get(stem) or []):
                     par = "-" if t.get("parity_pass") is None else ("PASS" if t["parity_pass"] else "FAIL")
                     if t.get("parity_err") is not None:
                         par += f" ({t['parity_err']:.1e})"
-                    L.append(f"| `{r['folder']}` | {stem} | {t.get('precision')} | {t.get('batch_size')} "
+                    L.append(f"| `{r['folder']}` | {stem} | {t.get('precision')} | {t.get('batch_size')} | {t.get('grad_accum')} "
                              f"| {t.get('seq_len')} | {t.get('steps')} | {f(t.get('step_ms'))} "
                              f"| {f(t.get('tokens_per_s'))} "
                              f"| {f(t.get('loss_first'), 4)} -> {f(t.get('loss_last'), 4)} "
