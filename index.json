@@ -2653,6 +2653,182 @@
         "smollm2-135m": [],
         "smollm2-360m-instruct": []
       }
+    },
+    {
+      "folder": "10-31-2026-2350-prefill-gemm-v1",
+      "name": "10-31-2026-2350-prefill-gemm-v1",
+      "date": "10-31-2026",
+      "kind": "run",
+      "version": "v0.1.1-106-g16fcf7d",
+      "commit": "16fcf7d",
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train_steps=20,train_seq=64",
+      "models": [
+        "Llama-3.2-1B",
+        "smollm2-135m",
+        "smollm2-360m-instruct"
+      ],
+      "engines": [
+        "bare.metal",
+        "llama.cpp",
+        "mlx",
+        "torch-mps"
+      ],
+      "headline": {
+        "Llama-3.2-1B": {
+          "bf16": {
+            "bare.metal": {
+              "prefill_tok_s": 221.456,
+              "decode_tok_s": 28.228,
+              "ttft_ms": 402.085,
+              "itl_ms": 35.223,
+              "load_ms": 4045.436,
+              "rss_mb": 4664.0,
+              "gpu_mb": 2985.0,
+              "j_per_token": 0.2995,
+              "match_pct": 100.0
+            },
+            "llama.cpp": {
+              "prefill_tok_s": 1407.842229,
+              "decode_tok_s": 41.370025,
+              "ttft_ms": 63.217,
+              "itl_ms": 24.172,
+              "load_ms": null,
+              "rss_mb": 2662.0,
+              "gpu_mb": null,
+              "j_per_token": 0.9276,
+              "match_pct": 100.0
+            },
+            "mlx": {
+              "prefill_tok_s": 1019.5976516120418,
+              "decode_tok_s": 34.88950159313925,
+              "ttft_ms": 87.28933404199779,
+              "itl_ms": 28.652291977778077,
+              "load_ms": 1716.344,
+              "rss_mb": 2001.0,
+              "gpu_mb": 2588.0,
+              "j_per_token": 0.398,
+              "match_pct": 1.6
+            },
+            "torch-mps": {
+              "prefill_tok_s": 845.6900683703442,
+              "decode_tok_s": 33.99058958533985,
+              "ttft_ms": 105.50120798870921,
+              "itl_ms": 29.215625021606684,
+              "load_ms": 2881.866,
+              "rss_mb": 595.0,
+              "gpu_mb": 3283.0,
+              "j_per_token": 0.4804,
+              "match_pct": 100.0
+            }
+          }
+        },
+        "smollm2-135m": {
+          "bf16": {
+            "bare.metal": {
+              "prefill_tok_s": 972.172,
+              "decode_tok_s": 43.343,
+              "ttft_ms": 90.596,
+              "itl_ms": 22.997,
+              "load_ms": 75.124,
+              "rss_mb": 615.0,
+              "gpu_mb": 562.0,
+              "j_per_token": 0.0831,
+              "match_pct": 100.0
+            },
+            "llama.cpp": {
+              "prefill_tok_s": 8243.127227,
+              "decode_tok_s": 160.305223,
+              "ttft_ms": 10.676,
+              "itl_ms": 6.238,
+              "load_ms": null,
+              "rss_mb": 406.0,
+              "gpu_mb": null,
+              "j_per_token": 0.0934,
+              "match_pct": 100.0
+            },
+            "mlx": {
+              "prefill_tok_s": 6879.949304821482,
+              "decode_tok_s": 231.44708519928398,
+              "ttft_ms": 12.790791923180223,
+              "itl_ms": 4.318834049627185,
+              "load_ms": 249.622,
+              "rss_mb": 705.0,
+              "gpu_mb": 340.0,
+              "j_per_token": 0.0942,
+              "match_pct": 28.1
+            },
+            "torch-mps": {
+              "prefill_tok_s": 4089.235134725668,
+              "decode_tok_s": 102.04848227375882,
+              "ttft_ms": 21.75295795314014,
+              "itl_ms": 9.807457914575934,
+              "load_ms": 308.261,
+              "rss_mb": 505.0,
+              "gpu_mb": 1154.0,
+              "j_per_token": 0.1309,
+              "match_pct": 30.5
+            }
+          }
+        },
+        "smollm2-360m-instruct": {
+          "bf16": {
+            "bare.metal": {
+              "prefill_tok_s": 510.672,
+              "decode_tok_s": 34.64,
+              "ttft_ms": 172.42,
+              "itl_ms": 28.839,
+              "load_ms": 135.714,
+              "rss_mb": 1563.0,
+              "gpu_mb": 1243.0,
+              "j_per_token": 0.1452,
+              "match_pct": 100.0
+            },
+            "llama.cpp": {
+              "prefill_tok_s": 3712.390705,
+              "decode_tok_s": 112.955839,
+              "ttft_ms": 23.704,
+              "itl_ms": 8.853,
+              "load_ms": null,
+              "rss_mb": 868.0,
+              "gpu_mb": null,
+              "j_per_token": 0.2824,
+              "match_pct": 100.0
+            },
+            "mlx": {
+              "prefill_tok_s": 1849.50851196825,
+              "decode_tok_s": 82.29226272010585,
+              "ttft_ms": 47.58020816370845,
+              "itl_ms": 12.108500115573406,
+              "load_ms": 430.735,
+              "rss_mb": 1160.0,
+              "gpu_mb": 835.0,
+              "j_per_token": 0.0793,
+              "match_pct": 19.5
+            },
+            "torch-mps": {
+              "prefill_tok_s": 2031.5584117347182,
+              "decode_tok_s": 61.12360712845215,
+              "ttft_ms": 43.53945795446634,
+              "itl_ms": 16.03025011718273,
+              "load_ms": 341.498,
+              "rss_mb": 507.0,
+              "gpu_mb": 1160.0,
+              "j_per_token": 0.2027,
+              "match_pct": 19.5
+            }
+          }
+        }
+      },
+      "sweep": {
+        "Llama-3.2-1B": [],
+        "smollm2-135m": [],
+        "smollm2-360m-instruct": []
+      },
+      "train": {
+        "Llama-3.2-1B": [],
+        "smollm2-135m": [],
+        "smollm2-360m-instruct": []
+      }
     }
   ]
 }

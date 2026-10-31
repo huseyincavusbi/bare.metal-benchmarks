@@ -1,0 +1,26 @@
+{
+  "name": "10-31-2026-2350-prefill-gemm-v1",
+  "generated_at": "2026-10-31T20:53:28.736148+00:00",
+  "version": {
+    "describe": "v0.1.1-106-g16fcf7d",
+    "commit": "16fcf7d",
+    "branch": "prefill-gemm"
+  },
+  "host": {
+    "hw_model": "Mac16,10",
+    "hw_machine": "arm64",
+    "gpu_name": "Apple M4",
+    "gpu_cores": 10,
+    "macos": "27.0.1",
+    "os_build": "26A434",
+    "ram_bytes": 17179869184,
+    "p_cores": 4,
+    "e_cores": 6
+  },
+  "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train_steps=20,train_seq=64",
+  "models": [
+    "Llama-3.2-1B",
+    "smollm2-135m",
+    "smollm2-360m-instruct"
+  ]
+}

@@ -37,6 +37,9 @@ Every folder under `runs/` contains `run.json` (provenance),
 | [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-135m | q4 | 824.3 / 45.2 | 7866 (llama.cpp) / 409 (mlx) | x10 / x9 |
 | [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-360m-instruct | bf16 | 142.9 / 34.4 | 3717 (llama.cpp) / 100 (llama.cpp) | x26 / x3 |
 | [`10-31-2026-2313-quant-prefill-v1`](runs/10-31-2026-2313-quant-prefill-v1) | `v0.1.1-106-g23dc1ba` | smollm2-360m-instruct | q4 | 379.1 / 39.1 | 3680 (llama.cpp) / 247 (mlx) | x10 / x6 |
+| [`10-31-2026-2350-prefill-gemm-v1`](runs/10-31-2026-2350-prefill-gemm-v1) | `v0.1.1-106-g16fcf7d` | Llama-3.2-1B | bf16 | 221.5 / 28.2 | 1408 (llama.cpp) / 41 (llama.cpp) | x6 / x1 |
+| [`10-31-2026-2350-prefill-gemm-v1`](runs/10-31-2026-2350-prefill-gemm-v1) | `v0.1.1-106-g16fcf7d` | smollm2-135m | bf16 | 972.2 / 43.3 | 8243 (llama.cpp) / 231 (mlx) | x8 / x5 |
+| [`10-31-2026-2350-prefill-gemm-v1`](runs/10-31-2026-2350-prefill-gemm-v1) | `v0.1.1-106-g16fcf7d` | smollm2-360m-instruct | bf16 | 510.7 / 34.6 | 3712 (llama.cpp) / 113 (llama.cpp) | x7 / x3 |
 
 gap = best engine / bare.metal (x1000 means the best engine is 1000x faster).
 Quant rows compare different quantization schemes, so token match is informational.
@@ -58,6 +61,9 @@ Quant rows compare different quantization schemes, so token match is information
 | `10-31-2026-2313-quant-prefill-v1` | Llama-3.2-1B | 72.8 | 27.8 | 0.407 | x19 | x1 |
 | `10-31-2026-2313-quant-prefill-v1` | smollm2-135m | 383.1 | 43.2 | 0.103 | x19 | x5 |
 | `10-31-2026-2313-quant-prefill-v1` | smollm2-360m-instruct | 142.9 | 34.4 | 0.236 | x26 | x3 |
+| `10-31-2026-2350-prefill-gemm-v1` | Llama-3.2-1B | 221.5 | 28.2 | 0.299 | x6 | x1 |
+| `10-31-2026-2350-prefill-gemm-v1` | smollm2-135m | 972.2 | 43.3 | 0.083 | x8 | x5 |
+| `10-31-2026-2350-prefill-gemm-v1` | smollm2-360m-instruct | 510.7 | 34.6 | 0.145 | x7 | x3 |
 
 ## Training (bare.metal)
 
@@ -574,6 +580,54 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,q4,q8,stages=cross,sweep,agg
 | `p1024_bf16` | 1024 | 138.2 | 6.6 | 7410 | 152.6 |
 | `p1024_q4` | 1024 | 342.3 | 6.7 | 2992 | 149.1 |
 | `p1024_q8` | 1024 | 371.8 | 6.7 | 2754 | 149.9 |
+
+</details>
+
+<details><summary><code>10-31-2026-2350-prefill-gemm-v1</code> &mdash; v0.1.1-106-g16fcf7d &mdash; Llama-3.2-1B, smollm2-135m, smollm2-360m-instruct</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train_steps=20,train_seq=64`
+
+#### Llama-3.2-1B &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 221.5 | 1,407.8 | 1,019.6 | 845.7 |
+| decode tok/s | 28.2 | 41.4 | 34.9 | 34.0 |
+| TTFT ms | 402 | 63 | 87 | 106 |
+| ITL ms | 35.2 | 24.2 | 28.7 | 29.2 |
+| peak RSS MB | 4,664 | 2,662 | 2,001 | 595 |
+| peak GPU MB | 2,985 | - | 2,588 | 3,283 |
+| load ms | 4,045 | - | 1,716 | 2,882 |
+| J/token | 0.299 | 0.928 | 0.398 | 0.480 |
+| token match % | 100.0 | 100.0 | 1.6 | 100.0 |
+
+#### smollm2-135m &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 972.2 | 8,243.1 | 6,879.9 | 4,089.2 |
+| decode tok/s | 43.3 | 160.3 | 231.4 | 102.0 |
+| TTFT ms | 91 | 11 | 13 | 22 |
+| ITL ms | 23.0 | 6.2 | 4.3 | 9.8 |
+| peak RSS MB | 615 | 406 | 705 | 505 |
+| peak GPU MB | 562 | - | 340 | 1,154 |
+| load ms | 75 | - | 250 | 308 |
+| J/token | 0.083 | 0.093 | 0.094 | 0.131 |
+| token match % | 100.0 | 100.0 | 28.1 | 30.5 |
+
+#### smollm2-360m-instruct &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 510.7 | 3,712.4 | 1,849.5 | 2,031.6 |
+| decode tok/s | 34.6 | 113.0 | 82.3 | 61.1 |
+| TTFT ms | 172 | 24 | 48 | 44 |
+| ITL ms | 28.8 | 8.9 | 12.1 | 16.0 |
+| peak RSS MB | 1,563 | 868 | 1,160 | 507 |
+| peak GPU MB | 1,243 | - | 835 | 1,160 |
+| load ms | 136 | - | 431 | 341 |
+| J/token | 0.145 | 0.282 | 0.079 | 0.203 |
+| token match % | 100.0 | 100.0 | 19.5 | 19.5 |
 
 </details>
 
