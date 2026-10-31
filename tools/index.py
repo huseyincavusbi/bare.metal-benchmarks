@@ -293,8 +293,8 @@ def readme(index):
     train_any = any((r["train"].get(stem) or []) for r in index["runs"] for stem in r["models"])
     if train_any:
         L += ["", "## Training (bare.metal)", "",
-              "| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | J/token | parity |",
-              "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
+              "| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |",
+              "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
         for r in index["runs"]:
             for stem in r["models"]:
                 for t in (r["train"].get(stem) or []):
@@ -305,7 +305,7 @@ def readme(index):
                              f"| {t.get('seq_len')} | {t.get('steps')} | {f(t.get('step_ms'))} "
                              f"| {f(t.get('tokens_per_s'))} "
                              f"| {f(t.get('loss_first'), 4)} -> {f(t.get('loss_last'), 4)} "
-                             f"| {f(t.get('rss_mb'), 0)} | {f(t.get('j_per_token'), 4)} | {par} |")
+                             f"| {f(t.get('rss_mb'), 0)} | {f(t.get('gpu_mb'), 0)} | {f(t.get('j_per_token'), 4)} | {par} |")
     L += ["", "## Run details", ""]
     for r in index["runs"]:
         L = details_block(r, L)

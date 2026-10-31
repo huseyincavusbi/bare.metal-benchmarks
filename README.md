@@ -41,12 +41,12 @@ Quant rows compare different quantization schemes, so token match is information
 
 ## Training (bare.metal)
 
-| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | J/token | parity |
-|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 1 | 64 | 20 | 598.9 | 105.6 | 2.2786 -> 2.6379 | 3105 | 0.0694 | PASS (5.7e-07) |
-| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 4 | 64 | 20 | 2276.0 | 112.1 | 2.6485 -> 2.3935 | 3105 | 0.0755 | PASS (3.6e-07) |
-| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 1 | 64 | 20 | 591.4 | 107.1 | 2.2786 -> 2.7159 | 2835 | 0.0948 | PASS (1.0e-07) |
-| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 4 | 64 | 20 | 2247.6 | 113.3 | 2.6485 -> 2.4067 | 2836 | 0.0794 | PASS (9.0e-08) |
+| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 1 | 64 | 20 | 598.9 | 105.6 | 2.2786 -> 2.6379 | 3105 | 2598 | 0.0694 | PASS (5.7e-07) |
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 4 | 64 | 20 | 2276.0 | 112.1 | 2.6485 -> 2.3935 | 3105 | 2598 | 0.0755 | PASS (3.6e-07) |
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 1 | 64 | 20 | 591.4 | 107.1 | 2.2786 -> 2.7159 | 2835 | 2329 | 0.0948 | PASS (1.0e-07) |
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 4 | 64 | 20 | 2247.6 | 113.3 | 2.6485 -> 2.4067 | 2836 | 2329 | 0.0794 | PASS (9.0e-08) |
 
 ## Run details
 
