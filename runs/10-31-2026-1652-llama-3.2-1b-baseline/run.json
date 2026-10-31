@@ -1,0 +1,24 @@
+{
+  "name": "10-31-2026-1652-llama-3.2-1b-baseline",
+  "generated_at": "2026-10-31T13:59:21.635738+00:00",
+  "version": {
+    "describe": "v0.1.1-58-gcb405d5",
+    "commit": "cb405d5",
+    "branch": "llama-3.2-parity"
+  },
+  "host": {
+    "hw_model": "Mac16,10",
+    "hw_machine": "arm64",
+    "gpu_name": "Apple M4",
+    "gpu_cores": 10,
+    "macos": "27.0.1",
+    "os_build": "26A434",
+    "ram_bytes": 17179869184,
+    "p_cores": 4,
+    "e_cores": 6
+  },
+  "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross,aggregate",
+  "models": [
+    "Llama-3.2-1B"
+  ]
+}

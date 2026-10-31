@@ -16,6 +16,8 @@ Every folder under `runs/` contains `run.json` (provenance),
 | [`10-17-2026-1434-baseline-135m`](runs/10-17-2026-1434-baseline-135m) | `v0.1.1` | smollm2-135m | q4 | 18.7 / 12.1 | 7842 (llama.cpp) / 408 (mlx) | x419 / x34 |
 | [`10-17-2026-1511-baseline-360m`](runs/10-17-2026-1511-baseline-360m) | `v0.1.1` | smollm2-360m-instruct | bf16 | 11.2 / 8.4 | 3675 (llama.cpp) / 101 (llama.cpp) | x329 / x12 |
 | [`10-17-2026-1511-baseline-360m`](runs/10-17-2026-1511-baseline-360m) | `v0.1.1` | smollm2-360m-instruct | q4 | 15.7 / 10.6 | 3738 (llama.cpp) / 256 (mlx) | x239 / x24 |
+| [`10-31-2026-1652-llama-3.2-1b-baseline`](runs/10-31-2026-1652-llama-3.2-1b-baseline) | `v0.1.1-58-gcb405d5` | Llama-3.2-1B | bf16 | 18.3 / 16.0 | 1414 (llama.cpp) / 40 (llama.cpp) | x77 / x3 |
+| [`10-31-2026-1652-llama-3.2-1b-baseline`](runs/10-31-2026-1652-llama-3.2-1b-baseline) | `v0.1.1-58-gcb405d5` | Llama-3.2-1B | q4 | 32.4 / 25.7 | 1456 (llama.cpp) / 115 (llama.cpp) | x45 / x4 |
 
 gap = best engine / bare.metal (x1000 means the best engine is 1000x faster).
 Quant rows compare different quantization schemes, so token match is informational.
@@ -26,6 +28,7 @@ Quant rows compare different quantization schemes, so token match is information
 |---|---|---:|---:|---:|---:|---:|
 | `10-17-2026-1434-baseline-135m` | smollm2-135m | 14.9 | 10.5 | 0.100 | x543 | x15 |
 | `10-17-2026-1511-baseline-360m` | smollm2-360m-instruct | 11.2 | 8.4 | 0.144 | x329 | x12 |
+| `10-31-2026-1652-llama-3.2-1b-baseline` | Llama-3.2-1B | 18.3 | 16.0 | 0.730 | x77 | x3 |
 
 ## Run details
 
@@ -112,6 +115,38 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | `p128_q8` | 128 | 14.0 | 9.4 | 9137 | 107.2 |
 | `p512_bf16` | 512 | 6.8 | 4.2 | 75569 | 235.7 |
 | `p1024_bf16` | 1024 | 5.3 | 5.1 | 193765 | 198.0 |
+
+</details>
+
+<details><summary><code>10-31-2026-1652-llama-3.2-1b-baseline</code> &mdash; v0.1.1-58-gcb405d5 &mdash; Llama-3.2-1B</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross,aggregate`
+
+#### Llama-3.2-1B &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 18.3 | 1,414.5 | 1,039.5 | 852.9 |
+| decode tok/s | 16.0 | 40.4 | 37.2 | 33.6 |
+| TTFT ms | 4,814 | 63 | 86 | 105 |
+| ITL ms | 62.8 | 24.8 | 26.7 | 29.8 |
+| peak RSS MB | 6,014 | 2,662 | 3,063 | 594 |
+| peak GPU MB | 2,609 | - | 2,588 | 3,274 |
+| J/token | 0.730 | 1.009 | 0.606 | 0.551 |
+| token match % | 100.0 | 0.0 | 1.6 | 3.9 |
+
+#### Llama-3.2-1B &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 32.4 | 1,455.8 | 1,017.3 |
+| decode tok/s | 25.7 | 114.6 | 93.3 |
+| TTFT ms | 2,720 | 61 | 87 |
+| ITL ms | 38.9 | 8.7 | 10.7 |
+| peak RSS MB | 5,851 | 954 | 1,462 |
+| peak GPU MB | 1,271 | - | 877 |
+| J/token | 0.399 | 0.433 | 0.131 |
+| token match % | 2.3 | 0.0 | 2.3 |
 
 </details>
 
