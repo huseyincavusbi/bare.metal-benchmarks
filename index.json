@@ -1255,6 +1255,93 @@
         "smollm2-135m": [],
         "smollm2-360m-instruct": []
       }
+    },
+    {
+      "folder": "10-31-2026-2154-train-baseline-v1",
+      "name": "10-31-2026-2154-train-baseline-v1",
+      "date": "10-31-2026",
+      "kind": "baseline",
+      "version": "v0.1.1-84-g2aba0ca",
+      "commit": "2aba0ca",
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64",
+      "models": [
+        "smollm2-135m"
+      ],
+      "engines": [],
+      "headline": {
+        "smollm2-135m": {}
+      },
+      "sweep": {
+        "smollm2-135m": []
+      },
+      "train": {
+        "smollm2-135m": [
+          {
+            "cfg": "bf16_b1",
+            "precision": "bf16",
+            "batch_size": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 598.897,
+            "tokens_per_s": 105.634,
+            "loss_first": 2.27862906,
+            "loss_last": 2.63794041,
+            "rss_mb": 3105.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": 0.0694,
+            "parity_pass": true,
+            "parity_err": 5.70372134e-07
+          },
+          {
+            "cfg": "bf16_b4",
+            "precision": "bf16",
+            "batch_size": 4,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 2276.01,
+            "tokens_per_s": 112.109,
+            "loss_first": 2.64850259,
+            "loss_last": 2.39353275,
+            "rss_mb": 3105.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": 0.0755,
+            "parity_pass": true,
+            "parity_err": 3.56896471e-07
+          },
+          {
+            "cfg": "fp32_b1",
+            "precision": "fp32",
+            "batch_size": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 591.382,
+            "tokens_per_s": 107.118,
+            "loss_first": 2.27862906,
+            "loss_last": 2.71586609,
+            "rss_mb": 2835.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": 0.0948,
+            "parity_pass": true,
+            "parity_err": 9.96638935e-08
+          },
+          {
+            "cfg": "fp32_b4",
+            "precision": "fp32",
+            "batch_size": 4,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 2247.625,
+            "tokens_per_s": 113.306,
+            "loss_first": 2.64850259,
+            "loss_last": 2.40667582,
+            "rss_mb": 2836.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": 0.0794,
+            "parity_pass": true,
+            "parity_err": 8.9575844e-08
+          }
+        ]
+      }
     }
   ]
 }

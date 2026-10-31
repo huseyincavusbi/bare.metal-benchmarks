@@ -39,6 +39,15 @@ Quant rows compare different quantization schemes, so token match is information
 | `10-31-2026-1905-decode-occupancy-v1` | smollm2-135m | 380.0 | 43.0 | 0.090 | x21 | x5 |
 | `10-31-2026-1905-decode-occupancy-v1` | smollm2-360m-instruct | 143.0 | 34.5 | 0.173 | x26 | x3 |
 
+## Training (bare.metal)
+
+| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | J/token | parity |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 1 | 64 | 20 | 598.9 | 105.6 | 2.2786 -> 2.6379 | 3105 | 0.0694 | PASS (5.7e-07) |
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 4 | 64 | 20 | 2276.0 | 112.1 | 2.6485 -> 2.3935 | 3105 | 0.0755 | PASS (3.6e-07) |
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 1 | 64 | 20 | 591.4 | 107.1 | 2.2786 -> 2.7159 | 2835 | 0.0948 | PASS (1.0e-07) |
+| `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 4 | 64 | 20 | 2247.6 | 113.3 | 2.6485 -> 2.4067 | 2836 | 0.0794 | PASS (9.0e-08) |
+
 ## Run details
 
 <details><summary><code>10-17-2026-1434-baseline-135m</code> &mdash; v0.1.1 &mdash; smollm2-135m</summary>
@@ -273,6 +282,21 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | `p128_q8` | 128 | 69.3 | 31.8 | 1847 | 31.4 |
 | `p512_bf16` | 512 | 145.2 | 11.7 | 3527 | 84.9 |
 | `p1024_bf16` | 1024 | 138.4 | 6.5 | 7401 | 152.5 |
+
+</details>
+
+<details><summary><code>10-31-2026-2154-train-baseline-v1</code> &mdash; v0.1.1-84-g2aba0ca &mdash; smollm2-135m</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64`
+
+#### smollm2-135m &middot; bare.metal training
+
+| cfg | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_b1` | bf16 | 1 | 64 | 20 | 598.9 | 105.6 | 2.2786 -> 2.6379 | 3105 | 2598 | 0.0694 | PASS (5.7e-07) |
+| `bf16_b4` | bf16 | 4 | 64 | 20 | 2276.0 | 112.1 | 2.6485 -> 2.3935 | 3105 | 2598 | 0.0755 | PASS (3.6e-07) |
+| `fp32_b1` | fp32 | 1 | 64 | 20 | 591.4 | 107.1 | 2.2786 -> 2.7159 | 2835 | 2329 | 0.0948 | PASS (1.0e-07) |
+| `fp32_b4` | fp32 | 4 | 64 | 20 | 2247.6 | 113.3 | 2.6485 -> 2.4067 | 2836 | 2329 | 0.0794 | PASS (9.0e-08) |
 
 </details>
 

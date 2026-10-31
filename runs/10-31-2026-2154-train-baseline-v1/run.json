@@ -1,0 +1,23 @@
+{
+  "name": "10-31-2026-2154-train-baseline-v1",
+  "generated_at": "2026-10-31T18:59:07.780050+00:00",
+  "version": {
+    "describe": "v0.1.1-84-g2aba0ca",
+    "commit": "2aba0ca",
+    "branch": "train-bench"
+  },
+  "host": {
+    "hw_model": "Mac16,10",
+    "hw_machine": "arm64",
+    "gpu_name": "Apple M4",
+    "macos": "27.0.1",
+    "os_build": "26A434",
+    "ram_bytes": 17179869184,
+    "p_cores": 4,
+    "e_cores": 6
+  },
+  "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64",
+  "models": [
+    "smollm2-135m"
+  ]
+}

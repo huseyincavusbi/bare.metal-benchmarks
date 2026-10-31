@@ -1,0 +1,655 @@
+{
+  "schema": "baremetal.model/v1",
+  "run": {
+    "name": "10-31-2026-2154-train-baseline-v1",
+    "generated_at": "2026-10-31T18:59:07.780050+00:00",
+    "version": {
+      "describe": "v0.1.1-84-g2aba0ca",
+      "commit": "2aba0ca",
+      "branch": "train-bench"
+    },
+    "host": {
+      "hw_model": "Mac16,10",
+      "hw_machine": "arm64",
+      "gpu_name": "Apple M4",
+      "macos": "27.0.1",
+      "os_build": "26A434",
+      "ram_bytes": 17179869184,
+      "p_cores": 4,
+      "e_cores": 6
+    },
+    "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64",
+    "models": [
+      "smollm2-135m"
+    ]
+  },
+  "model": "smollm2-135m",
+  "engines": {},
+  "sweep": {},
+  "train": {
+    "bf16_b1": {
+      "meta": {
+        "engine": "bare.metal",
+        "git_commit": "2aba0ca",
+        "git_branch": "train-bench",
+        "git_dirty": 0,
+        "host": "Apple M4",
+        "hw_model": "Mac16,10",
+        "hw_machine": "arm64",
+        "os_build": "26A434",
+        "gpu_name": "Apple M4",
+        "ram_bytes": 17179869184,
+        "cpu_count": 10,
+        "p_cores": 4,
+        "e_cores": 6,
+        "macos": "27.0.1",
+        "started_at": "2026-10-31T18:55:13Z",
+        "ended_at": "2026-10-31T18:55:39Z",
+        "model": "models/smollm2-135m",
+        "params": 134515008,
+        "n_layers": 30,
+        "dim": 576,
+        "n_heads": 9,
+        "n_kv_heads": 3,
+        "max_seq": 8192,
+        "precision": "bf16",
+        "quant": "none"
+      },
+      "config": {
+        "stage": "train",
+        "seq_len": 64,
+        "batch_size": 1,
+        "steps": 20,
+        "warmup": 0,
+        "learning_rate": 9.99999975e-05,
+        "seed": 42,
+        "data": "test/grad/g4_text.txt"
+      },
+      "results": {
+        "train": {
+          "step_ms": {
+            "n": 20,
+            "min": 595.483,
+            "max": 783.373,
+            "mean": 607.965,
+            "stddev": 40.2829,
+            "p50": 598.897,
+            "p90": 601.318,
+            "p99": 783.373
+          },
+          "tokens_per_s": {
+            "n": 20,
+            "min": 81.698,
+            "max": 107.476,
+            "mean": 105.634,
+            "stddev": 5.5009,
+            "p50": 106.866,
+            "p90": 107.233,
+            "p99": 107.476
+          },
+          "loss": {
+            "first": 2.27862906,
+            "last": 2.63794041,
+            "min": 2.06243563,
+            "mean": 2.52720141,
+            "values": [
+              2.27862906,
+              2.769418,
+              2.50803328,
+              2.52086234,
+              2.42262387,
+              2.06243563,
+              2.21846032,
+              2.36402941,
+              2.62774372,
+              2.46041298,
+              2.46706629,
+              2.91528702,
+              2.91711116,
+              2.51192188,
+              2.86064172,
+              2.23738027,
+              2.41310644,
+              2.86030722,
+              2.49062181,
+              2.63794041
+            ]
+          },
+          "checkpoints": [
+            {
+              "step": 0,
+              "loss": 2.27862906
+            },
+            {
+              "step": 5,
+              "loss": 2.06243563
+            },
+            {
+              "step": 10,
+              "loss": 2.46706629
+            },
+            {
+              "step": 15,
+              "loss": 2.23738027
+            },
+            {
+              "step": 19,
+              "loss": 2.63794041
+            }
+          ],
+          "total_tokens": 1280,
+          "parity": {
+            "ref": "train_ref__bf16_b1.json",
+            "n": 1,
+            "tol": 9.99999997e-07,
+            "max_rel_err": 0,
+            "pass": true,
+            "drift_n": 3,
+            "drift_max_rel_err": 5.70372134e-07
+          },
+          "load_ms": 721.584
+        },
+        "memory": {
+          "rss_peak_bytes": 3104997376,
+          "gpu_peak_bytes": 2597974092,
+          "gpu_alloc_bytes": 2597973772
+        },
+        "gpu_exec": {
+          "busy_ms": 11183.858,
+          "busy_pct": 91.98,
+          "cmd_buffers": 1300,
+          "buffers_per_step": 65.0
+        },
+        "active_seconds": 12.159297,
+        "active_started_unix": 1793472927,
+        "active_ended_unix": 1793472939,
+        "generated_tokens": 1280,
+        "energy": {
+          "samples_used": 50,
+          "avg_cpu_w": 0.91,
+          "avg_gpu_w": 6.4,
+          "avg_ane_w": 0.0,
+          "combined_w": 7.31,
+          "gpu_active_pct": 91.3,
+          "gpu_freq_mhz": 1526.5,
+          "p_residency_pct": 4.0,
+          "e_residency_pct": 58.11,
+          "p_freq_mhz": 176.3,
+          "e_freq_mhz": 1381.96,
+          "avg_w": 7.31,
+          "powermetrics_log": "train__bf16_b1.powermetrics.txt",
+          "joules": 88.89,
+          "j_per_token": 0.0694
+        }
+      }
+    },
+    "bf16_b4": {
+      "meta": {
+        "engine": "bare.metal",
+        "git_commit": "2aba0ca",
+        "git_branch": "train-bench",
+        "git_dirty": 0,
+        "host": "Apple M4",
+        "hw_model": "Mac16,10",
+        "hw_machine": "arm64",
+        "os_build": "26A434",
+        "gpu_name": "Apple M4",
+        "ram_bytes": 17179869184,
+        "cpu_count": 10,
+        "p_cores": 4,
+        "e_cores": 6,
+        "macos": "27.0.1",
+        "started_at": "2026-10-31T18:56:01Z",
+        "ended_at": "2026-10-31T18:57:01Z",
+        "model": "models/smollm2-135m",
+        "params": 134515008,
+        "n_layers": 30,
+        "dim": 576,
+        "n_heads": 9,
+        "n_kv_heads": 3,
+        "max_seq": 8192,
+        "precision": "bf16",
+        "quant": "none"
+      },
+      "config": {
+        "stage": "train",
+        "seq_len": 64,
+        "batch_size": 4,
+        "steps": 20,
+        "warmup": 0,
+        "learning_rate": 9.99999975e-05,
+        "seed": 42,
+        "data": "test/grad/g4_text.txt"
+      },
+      "results": {
+        "train": {
+          "step_ms": {
+            "n": 20,
+            "min": 2259.816,
+            "max": 2405.136,
+            "mean": 2283.906,
+            "stddev": 31.2733,
+            "p50": 2276.01,
+            "p90": 2304.23,
+            "p99": 2405.136
+          },
+          "tokens_per_s": {
+            "n": 20,
+            "min": 106.439,
+            "max": 113.284,
+            "mean": 112.109,
+            "stddev": 1.4767,
+            "p50": 112.516,
+            "p90": 113.172,
+            "p99": 113.284
+          },
+          "loss": {
+            "first": 2.64850259,
+            "last": 2.39353275,
+            "min": 2.17435646,
+            "mean": 2.49509978,
+            "values": [
+              2.64850259,
+              2.42845106,
+              2.67213249,
+              2.78573251,
+              2.76629996,
+              2.17435646,
+              2.48348665,
+              2.39618993,
+              2.59128714,
+              2.3337326,
+              2.68434167,
+              2.39684105,
+              2.3275094,
+              2.72318554,
+              2.58882093,
+              2.31542158,
+              2.28449154,
+              2.31611395,
+              2.59156585,
+              2.39353275
+            ]
+          },
+          "checkpoints": [
+            {
+              "step": 0,
+              "loss": 2.64850259
+            },
+            {
+              "step": 5,
+              "loss": 2.17435646
+            },
+            {
+              "step": 10,
+              "loss": 2.68434167
+            },
+            {
+              "step": 15,
+              "loss": 2.31542158
+            },
+            {
+              "step": 19,
+              "loss": 2.39353275
+            }
+          ],
+          "total_tokens": 5120,
+          "parity": {
+            "ref": "train_ref__bf16_b4.json",
+            "n": 1,
+            "tol": 9.99999997e-07,
+            "max_rel_err": 0,
+            "pass": true,
+            "drift_n": 3,
+            "drift_max_rel_err": 3.56896471e-07
+          },
+          "load_ms": 697.45
+        },
+        "memory": {
+          "rss_peak_bytes": 3105144832,
+          "gpu_peak_bytes": 2597974092,
+          "gpu_alloc_bytes": 2597973772
+        },
+        "gpu_exec": {
+          "busy_ms": 42131.589,
+          "busy_pct": 92.24,
+          "cmd_buffers": 5140,
+          "buffers_per_step": 257.0
+        },
+        "active_seconds": 45.678113,
+        "active_started_unix": 1793472975,
+        "active_ended_unix": 1793473021,
+        "generated_tokens": 5120,
+        "energy": {
+          "samples_used": 182,
+          "avg_cpu_w": 1.5,
+          "avg_gpu_w": 6.96,
+          "avg_ane_w": 0.0,
+          "combined_w": 8.46,
+          "gpu_active_pct": 94.93,
+          "gpu_freq_mhz": 1558.21,
+          "p_residency_pct": 8.69,
+          "e_residency_pct": 81.07,
+          "p_freq_mhz": 419.87,
+          "e_freq_mhz": 2185.4,
+          "avg_w": 8.46,
+          "powermetrics_log": "train__bf16_b4.powermetrics.txt",
+          "joules": 386.51,
+          "j_per_token": 0.0755
+        }
+      }
+    },
+    "fp32_b1": {
+      "meta": {
+        "engine": "bare.metal",
+        "git_commit": "2aba0ca",
+        "git_branch": "train-bench",
+        "git_dirty": 0,
+        "host": "Apple M4",
+        "hw_model": "Mac16,10",
+        "hw_machine": "arm64",
+        "os_build": "26A434",
+        "gpu_name": "Apple M4",
+        "ram_bytes": 17179869184,
+        "cpu_count": 10,
+        "p_cores": 4,
+        "e_cores": 6,
+        "macos": "27.0.1",
+        "started_at": "2026-10-31T18:57:19Z",
+        "ended_at": "2026-10-31T18:57:45Z",
+        "model": "models/smollm2-135m",
+        "params": 134515008,
+        "n_layers": 30,
+        "dim": 576,
+        "n_heads": 9,
+        "n_kv_heads": 3,
+        "max_seq": 8192,
+        "precision": "fp32",
+        "quant": "none"
+      },
+      "config": {
+        "stage": "train",
+        "seq_len": 64,
+        "batch_size": 1,
+        "steps": 20,
+        "warmup": 0,
+        "learning_rate": 9.99999975e-05,
+        "seed": 42,
+        "data": "test/grad/g4_text.txt"
+      },
+      "results": {
+        "train": {
+          "step_ms": {
+            "n": 20,
+            "min": 587.216,
+            "max": 749.116,
+            "mean": 599.085,
+            "stddev": 34.5354,
+            "p50": 591.382,
+            "p90": 597.467,
+            "p99": 749.116
+          },
+          "tokens_per_s": {
+            "n": 20,
+            "min": 85.434,
+            "max": 108.989,
+            "mean": 107.118,
+            "stddev": 5.0012,
+            "p50": 108.222,
+            "p90": 108.869,
+            "p99": 108.989
+          },
+          "loss": {
+            "first": 2.27862906,
+            "last": 2.71586609,
+            "min": 2.13925457,
+            "mean": 2.5319438,
+            "values": [
+              2.27862906,
+              2.73706484,
+              2.39222598,
+              2.48043036,
+              2.43785143,
+              2.13925457,
+              2.23995948,
+              2.40186048,
+              2.64288378,
+              2.4955225,
+              2.4488771,
+              2.84479141,
+              2.95904398,
+              2.56726837,
+              2.83263826,
+              2.22983313,
+              2.43871784,
+              2.86243129,
+              2.49372721,
+              2.71586609
+            ]
+          },
+          "checkpoints": [
+            {
+              "step": 0,
+              "loss": 2.27862906
+            },
+            {
+              "step": 5,
+              "loss": 2.13925457
+            },
+            {
+              "step": 10,
+              "loss": 2.4488771
+            },
+            {
+              "step": 15,
+              "loss": 2.22983313
+            },
+            {
+              "step": 19,
+              "loss": 2.71586609
+            }
+          ],
+          "total_tokens": 1280,
+          "parity": {
+            "ref": "train_ref__fp32_b1.json",
+            "n": 1,
+            "tol": 9.99999997e-07,
+            "max_rel_err": 0,
+            "pass": true,
+            "drift_n": 3,
+            "drift_max_rel_err": 9.96638935e-08
+          },
+          "load_ms": 360.945
+        },
+        "memory": {
+          "rss_peak_bytes": 2834776064,
+          "gpu_peak_bytes": 2329014348,
+          "gpu_alloc_bytes": 2329014028
+        },
+        "gpu_exec": {
+          "busy_ms": 11306.136,
+          "busy_pct": 94.36,
+          "cmd_buffers": 1300,
+          "buffers_per_step": 65.0
+        },
+        "active_seconds": 11.981707,
+        "active_started_unix": 1793473053,
+        "active_ended_unix": 1793473064,
+        "generated_tokens": 1280,
+        "energy": {
+          "samples_used": 47,
+          "avg_cpu_w": 2.78,
+          "avg_gpu_w": 7.34,
+          "avg_ane_w": 0.0,
+          "combined_w": 10.12,
+          "gpu_active_pct": 97.19,
+          "gpu_freq_mhz": 1550.51,
+          "p_residency_pct": 50.2,
+          "e_residency_pct": 63.77,
+          "p_freq_mhz": 2285.36,
+          "e_freq_mhz": 1360.49,
+          "avg_w": 10.13,
+          "powermetrics_log": "train__fp32_b1.powermetrics.txt",
+          "joules": 121.32,
+          "j_per_token": 0.0948
+        }
+      }
+    },
+    "fp32_b4": {
+      "meta": {
+        "engine": "bare.metal",
+        "git_commit": "2aba0ca",
+        "git_branch": "train-bench",
+        "git_dirty": 0,
+        "host": "Apple M4",
+        "hw_model": "Mac16,10",
+        "hw_machine": "arm64",
+        "os_build": "26A434",
+        "gpu_name": "Apple M4",
+        "ram_bytes": 17179869184,
+        "cpu_count": 10,
+        "p_cores": 4,
+        "e_cores": 6,
+        "macos": "27.0.1",
+        "started_at": "2026-10-31T18:58:08Z",
+        "ended_at": "2026-10-31T18:59:07Z",
+        "model": "models/smollm2-135m",
+        "params": 134515008,
+        "n_layers": 30,
+        "dim": 576,
+        "n_heads": 9,
+        "n_kv_heads": 3,
+        "max_seq": 8192,
+        "precision": "fp32",
+        "quant": "none"
+      },
+      "config": {
+        "stage": "train",
+        "seq_len": 64,
+        "batch_size": 4,
+        "steps": 20,
+        "warmup": 0,
+        "learning_rate": 9.99999975e-05,
+        "seed": 42,
+        "data": "test/grad/g4_text.txt"
+      },
+      "results": {
+        "train": {
+          "step_ms": {
+            "n": 20,
+            "min": 2227.68,
+            "max": 2441.645,
+            "mean": 2260.444,
+            "stddev": 50.8796,
+            "p50": 2247.625,
+            "p90": 2263.088,
+            "p99": 2441.645
+          },
+          "tokens_per_s": {
+            "n": 20,
+            "min": 104.847,
+            "max": 114.918,
+            "mean": 113.306,
+            "stddev": 2.4029,
+            "p50": 113.938,
+            "p90": 114.616,
+            "p99": 114.918
+          },
+          "loss": {
+            "first": 2.64850259,
+            "last": 2.40667582,
+            "min": 2.18126917,
+            "mean": 2.50184822,
+            "values": [
+              2.64850259,
+              2.4154346,
+              2.66163898,
+              2.78995085,
+              2.76491475,
+              2.18126917,
+              2.50316381,
+              2.41385579,
+              2.60633612,
+              2.3488009,
+              2.69672585,
+              2.40505099,
+              2.35393381,
+              2.7401793,
+              2.5976181,
+              2.32337594,
+              2.28870535,
+              2.31560493,
+              2.57522392,
+              2.40667582
+            ]
+          },
+          "checkpoints": [
+            {
+              "step": 0,
+              "loss": 2.64850259
+            },
+            {
+              "step": 5,
+              "loss": 2.18126917
+            },
+            {
+              "step": 10,
+              "loss": 2.69672585
+            },
+            {
+              "step": 15,
+              "loss": 2.32337594
+            },
+            {
+              "step": 19,
+              "loss": 2.40667582
+            }
+          ],
+          "total_tokens": 5120,
+          "parity": {
+            "ref": "train_ref__fp32_b4.json",
+            "n": 1,
+            "tol": 9.99999997e-07,
+            "max_rel_err": 0,
+            "pass": true,
+            "drift_n": 3,
+            "drift_max_rel_err": 8.9575844e-08
+          },
+          "load_ms": 223.998
+        },
+        "memory": {
+          "rss_peak_bytes": 2836201472,
+          "gpu_peak_bytes": 2329014348,
+          "gpu_alloc_bytes": 2329014028
+        },
+        "gpu_exec": {
+          "busy_ms": 42576.909,
+          "busy_pct": 94.18,
+          "cmd_buffers": 5140,
+          "buffers_per_step": 257.0
+        },
+        "active_seconds": 45.208876,
+        "active_started_unix": 1793473102,
+        "active_ended_unix": 1793473147,
+        "generated_tokens": 5120,
+        "energy": {
+          "samples_used": 177,
+          "avg_cpu_w": 1.37,
+          "avg_gpu_w": 7.62,
+          "avg_ane_w": 0.0,
+          "combined_w": 8.99,
+          "gpu_active_pct": 97.92,
+          "gpu_freq_mhz": 1568.63,
+          "p_residency_pct": 17.94,
+          "e_residency_pct": 61.57,
+          "p_freq_mhz": 814.54,
+          "e_freq_mhz": 1420.66,
+          "avg_w": 8.99,
+          "powermetrics_log": "train__fp32_b4.powermetrics.txt",
+          "joules": 406.47,
+          "j_per_token": 0.0794
+        }
+      }
+    }
+  }
+}
