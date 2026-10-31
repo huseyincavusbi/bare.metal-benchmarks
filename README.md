@@ -64,6 +64,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 94.4 | 6.5 | 6.1 | 10.6 |
 | peak RSS MB | 1,123 | 397 | 705 | 504 |
 | peak GPU MB | 648 | - | 340 | 1,154 |
+| load ms | 606 | - | 250 | 500 |
 | J/token | 0.100 | 0.083 | 0.051 | 0.106 |
 | token match % | 100.0 | 100.0 | 28.1 | 30.5 |
 
@@ -77,6 +78,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 82.3 | 3.9 | 2.4 |
 | peak RSS MB | 973 | 217 | 514 |
 | peak GPU MB | 502 | - | 198 |
+| load ms | 199 | - | 157 |
 | J/token | 0.070 | 0.063 | 0.069 |
 | token match % | 6.2 | 6.2 | 6.2 |
 
@@ -107,6 +109,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 118.7 | 9.9 | 10.7 | 21.2 |
 | peak RSS MB | 2,924 | 862 | 1,160 | 511 |
 | peak GPU MB | 1,397 | - | 835 | 1,152 |
+| load ms | 1,578 | - | 447 | 493 |
 | J/token | 0.144 | 0.192 | 0.105 | 0.143 |
 | token match % | 100.0 | 100.0 | 19.5 | 19.5 |
 
@@ -120,6 +123,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 94.9 | 6.6 | 3.9 |
 | peak RSS MB | 2,508 | 366 | 644 |
 | peak GPU MB | 965 | - | 349 |
+| load ms | 498 | - | 212 |
 | J/token | 0.095 | 0.097 | 0.123 |
 | token match % | 1.6 | 1.6 | 1.6 |
 
@@ -150,6 +154,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=cross,aggr
 | ITL ms | 63.3 | 25.3 | 29.0 | 30.3 |
 | peak RSS MB | 7,427 | 2,660 | 2,898 | 595 |
 | peak GPU MB | 2,609 | - | 2,588 | 3,283 |
+| load ms | 4,105 | - | 1,465 | 2,620 |
 | J/token | 0.680 | 1.200 | 0.649 | 0.596 |
 | token match % | 100.0 | 100.0 | 1.6 | 100.0 |
 
@@ -163,6 +168,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=cross,aggr
 | ITL ms | 40.2 | 8.9 | 10.6 |
 | peak RSS MB | 5,881 | 954 | 1,462 |
 | peak GPU MB | 1,271 | - | 877 |
+| load ms | 6,476 | - | 858 |
 | J/token | 0.384 | 0.467 | 0.155 |
 | token match % | 2.3 | 2.3 | 2.3 |
 
@@ -182,6 +188,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 35.3 | 24.1 | 28.5 | 28.7 |
 | peak RSS MB | 6,056 | 2,661 | 3,239 | 595 |
 | peak GPU MB | 2,985 | - | 2,588 | 3,274 |
+| load ms | 6,557 | - | 1,712 | 2,558 |
 | J/token | 0.388 | 0.934 | 0.395 | 0.475 |
 | token match % | 100.0 | 100.0 | 1.6 | 100.0 |
 
@@ -195,6 +202,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 24.0 | 8.7 | 10.3 |
 | peak RSS MB | 7,427 | 953 | 1,463 |
 | peak GPU MB | 1,271 | - | 877 |
+| load ms | 2,111 | - | 864 |
 | J/token | 0.283 | 0.430 | 0.128 |
 | token match % | 2.3 | 2.3 | 2.3 |
 
@@ -219,6 +227,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 23.1 | 6.5 | 4.4 | 9.9 |
 | peak RSS MB | 873 | 402 | 705 | 505 |
 | peak GPU MB | 562 | - | 340 | 1,154 |
+| load ms | 557 | - | 250 | 272 |
 | J/token | 0.090 | 0.097 | 0.086 | 0.122 |
 | token match % | 100.0 | 100.0 | 28.1 | 30.5 |
 
@@ -232,6 +241,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 22.0 | 4.5 | 2.4 |
 | peak RSS MB | 820 | 224 | 515 |
 | peak GPU MB | 219 | - | 198 |
+| load ms | 198 | - | 159 |
 | J/token | 0.090 | 0.053 | 0.072 |
 | token match % | 6.2 | 6.2 | 6.2 |
 
@@ -256,6 +266,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 28.9 | 8.6 | 12.3 | 15.9 |
 | peak RSS MB | 2,260 | 867 | 1,160 | 506 |
 | peak GPU MB | 1,243 | - | 835 | 1,160 |
+| load ms | 1,465 | - | 432 | 370 |
 | J/token | 0.173 | 0.325 | 0.083 | 0.204 |
 | token match % | 100.0 | 100.0 | 19.5 | 19.5 |
 
@@ -269,6 +280,7 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=prep,cross
 | ITL ms | 25.4 | 6.8 | 3.9 |
 | peak RSS MB | 2,183 | 371 | 644 |
 | peak GPU MB | 461 | - | 349 |
+| load ms | 494 | - | 217 |
 | J/token | 0.146 | 0.101 | 0.133 |
 | token match % | 1.6 | 1.6 | 1.6 |
 

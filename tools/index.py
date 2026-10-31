@@ -44,6 +44,7 @@ def variant_stats(res, match):
         "decode_tok_s": num(res, "decode", "tok_s", "p50"),
         "ttft_ms": num(res, "ttft_ms", "p50"),
         "itl_ms": num(res, "itl_ms", "p50"),
+        "load_ms": res.get("load_ms"),
         "rss_mb": round(rss / 1e6, 0) if rss else None,
         "gpu_mb": round(gpu / 1e6, 0) if gpu else None,
         "j_per_token": num(res, "energy", "j_per_token"),
@@ -190,6 +191,7 @@ def details_block(r, lines):
                 ("ITL ms", [per_engine[e].get("itl_ms") for e in engines], "min", 1),
                 ("peak RSS MB", [per_engine[e].get("rss_mb") for e in engines], "min", 0),
                 ("peak GPU MB", [per_engine[e].get("gpu_mb") for e in engines], "min", 0),
+                ("load ms", [per_engine[e].get("load_ms") for e in engines], "min", 0),
                 ("J/token", [per_engine[e].get("j_per_token") for e in engines], "min", 3),
                 ("token match %", [per_engine[e].get("match_pct") for e in engines], "max", 1),
             ]
