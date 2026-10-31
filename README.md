@@ -73,6 +73,12 @@ Quant rows compare different quantization schemes, so token match is information
 | `10-31-2026-2154-train-baseline-v1` | smollm2-135m | bf16 | 4 | 64 | 20 | 2276.0 | 112.1 | 2.6485 -> 2.3935 | 3105 | 2598 | 0.0755 | PASS (3.6e-07) |
 | `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 1 | 64 | 20 | 591.4 | 107.1 | 2.2786 -> 2.7159 | 2835 | 2329 | 0.0948 | PASS (1.0e-07) |
 | `10-31-2026-2154-train-baseline-v1` | smollm2-135m | fp32 | 4 | 64 | 20 | 2247.6 | 113.3 | 2.6485 -> 2.4067 | 2836 | 2329 | 0.0794 | PASS (9.0e-08) |
+| `11-01-2026-0006-train-grad-accum-v1` | smollm2-135m | bf16 | 1 | 64 | 20 | 596.5 | 106.0 | 2.2786 -> 2.6379 | 3105 | 2598 | 0.0726 | PASS (1.1e-06) |
+| `11-01-2026-0006-train-grad-accum-v1` | smollm2-135m | bf16 | 4 | 64 | 20 | 2266.7 | 112.4 | 2.6485 -> 2.3935 | 3107 | 2598 | 0.0689 | PASS (8.9e-07) |
+| `11-01-2026-0006-train-grad-accum-v1` | smollm2-135m | bf16 | 1 | 64 | 20 | 542.6 | 112.3 | 2.2786 -> 2.9371 | 3105 | 2598 | 0.0685 | PASS (0.0e+00) |
+| `11-01-2026-0006-train-grad-accum-v1` | smollm2-135m | fp32 | 1 | 64 | 20 | 592.5 | 106.8 | 2.2786 -> 2.7159 | 2835 | 2329 | 0.0723 | PASS (7.8e-07) |
+| `11-01-2026-0006-train-grad-accum-v1` | smollm2-135m | fp32 | 4 | 64 | 20 | 2246.9 | 113.8 | 2.6485 -> 2.4067 | 2836 | 2329 | 0.0719 | PASS (1.8e-07) |
+| `11-01-2026-0006-train-grad-accum-v1` | smollm2-135m | fp32 | 1 | 64 | 20 | 551.8 | 113.3 | 2.2786 -> 2.9132 | 2835 | 2329 | 0.0703 | PASS (0.0e+00) |
 
 ## Run details
 
@@ -628,6 +634,23 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,stages=cross,aggregate,train
 | load ms | 136 | - | 431 | 341 |
 | J/token | 0.145 | 0.282 | 0.079 | 0.203 |
 | token match % | 100.0 | 100.0 | 19.5 | 19.5 |
+
+</details>
+
+<details><summary><code>11-01-2026-0006-train-grad-accum-v1</code> &mdash; v0.1.1-109-gf20964e &mdash; smollm2-135m</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64`
+
+#### smollm2-135m &middot; bare.metal training
+
+| cfg | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_b1` | bf16 | 1 | 64 | 20 | 596.5 | 106.0 | 2.2786 -> 2.6379 | 3105 | 2598 | 0.0726 | PASS (1.1e-06) |
+| `bf16_ga4` | bf16 | 1 | 64 | 20 | 542.6 | 112.3 | 2.2786 -> 2.9371 | 3105 | 2598 | 0.0685 | PASS (0.0e+00) |
+| `bf16_b4` | bf16 | 4 | 64 | 20 | 2266.7 | 112.4 | 2.6485 -> 2.3935 | 3107 | 2598 | 0.0689 | PASS (8.9e-07) |
+| `fp32_b1` | fp32 | 1 | 64 | 20 | 592.5 | 106.8 | 2.2786 -> 2.7159 | 2835 | 2329 | 0.0723 | PASS (7.8e-07) |
+| `fp32_ga4` | fp32 | 1 | 64 | 20 | 551.8 | 113.3 | 2.2786 -> 2.9132 | 2835 | 2329 | 0.0703 | PASS (0.0e+00) |
+| `fp32_b4` | fp32 | 4 | 64 | 20 | 2246.9 | 113.8 | 2.6485 -> 2.4067 | 2836 | 2329 | 0.0719 | PASS (1.8e-07) |
 
 </details>
 

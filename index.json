@@ -2829,6 +2829,125 @@
         "smollm2-135m": [],
         "smollm2-360m-instruct": []
       }
+    },
+    {
+      "folder": "11-01-2026-0006-train-grad-accum-v1",
+      "name": "11-01-2026-0006-train-grad-accum-v1",
+      "date": "11-01-2026",
+      "kind": "run",
+      "version": "v0.1.1-109-gf20964e",
+      "commit": "f20964e",
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64",
+      "models": [
+        "smollm2-135m"
+      ],
+      "engines": [],
+      "headline": {
+        "smollm2-135m": {}
+      },
+      "sweep": {
+        "smollm2-135m": []
+      },
+      "train": {
+        "smollm2-135m": [
+          {
+            "cfg": "bf16_b1",
+            "precision": "bf16",
+            "batch_size": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 596.529,
+            "tokens_per_s": 106.022,
+            "loss_first": 2.27862906,
+            "loss_last": 2.63793159,
+            "rss_mb": 3105.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": 0.0726,
+            "parity_pass": true,
+            "parity_err": 1.14074459e-06
+          },
+          {
+            "cfg": "bf16_b4",
+            "precision": "bf16",
+            "batch_size": 4,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 2266.701,
+            "tokens_per_s": 112.405,
+            "loss_first": 2.64850259,
+            "loss_last": 2.39354634,
+            "rss_mb": 3107.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": 0.0689,
+            "parity_pass": true,
+            "parity_err": 8.92241019e-07
+          },
+          {
+            "cfg": "bf16_ga4",
+            "precision": "bf16",
+            "batch_size": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 542.595,
+            "tokens_per_s": 112.279,
+            "loss_first": 2.27862906,
+            "loss_last": 2.9370575,
+            "rss_mb": 3105.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": 0.0685,
+            "parity_pass": true,
+            "parity_err": 0
+          },
+          {
+            "cfg": "fp32_b1",
+            "precision": "fp32",
+            "batch_size": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 592.465,
+            "tokens_per_s": 106.792,
+            "loss_first": 2.27862906,
+            "loss_last": 2.71586585,
+            "rss_mb": 2835.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": 0.0723,
+            "parity_pass": true,
+            "parity_err": 7.83966799e-07
+          },
+          {
+            "cfg": "fp32_b4",
+            "precision": "fp32",
+            "batch_size": 4,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 2246.94,
+            "tokens_per_s": 113.764,
+            "loss_first": 2.64850259,
+            "loss_last": 2.40667534,
+            "rss_mb": 2836.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": 0.0719,
+            "parity_pass": true,
+            "parity_err": 1.79151656e-07
+          },
+          {
+            "cfg": "fp32_ga4",
+            "precision": "fp32",
+            "batch_size": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 551.802,
+            "tokens_per_s": 113.285,
+            "loss_first": 2.27862906,
+            "loss_last": 2.91315937,
+            "rss_mb": 2835.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": 0.0703,
+            "parity_pass": true,
+            "parity_err": 0
+          }
+        ]
+      }
     }
   ]
 }
