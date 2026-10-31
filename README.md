@@ -24,6 +24,12 @@ Every folder under `runs/` contains `run.json` (provenance),
 | [`10-31-2026-1905-decode-occupancy-v1`](runs/10-31-2026-1905-decode-occupancy-v1) | `v0.1.1-78-gfc9d700` | smollm2-135m | q4 | 116.5 / 45.4 | 8382 (llama.cpp) / 417 (mlx) | x72 / x9 |
 | [`10-31-2026-1905-decode-occupancy-v1`](runs/10-31-2026-1905-decode-occupancy-v1) | `v0.1.1-78-gfc9d700` | smollm2-360m-instruct | bf16 | 143.0 / 34.5 | 3662 (llama.cpp) / 117 (llama.cpp) | x26 / x3 |
 | [`10-31-2026-1905-decode-occupancy-v1`](runs/10-31-2026-1905-decode-occupancy-v1) | `v0.1.1-78-gfc9d700` | smollm2-360m-instruct | q4 | 90.3 / 39.4 | 3711 (llama.cpp) / 255 (mlx) | x41 / x6 |
+| [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | Llama-3.2-1B | bf16 | 70.4 / 27.3 | 1391 (llama.cpp) / 40 (llama.cpp) | x20 / x1 |
+| [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | Llama-3.2-1B | q4 | 57.2 / 40.5 | 1419 (llama.cpp) / 109 (llama.cpp) | x25 / x3 |
+| [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-135m | bf16 | 355.1 / 42.5 | 6812 (mlx) / 203 (mlx) | x19 / x5 |
+| [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-135m | q4 | 112.6 / 44.8 | 7955 (llama.cpp) / 359 (mlx) | x71 / x8 |
+| [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-360m-instruct | bf16 | 136.3 / 33.7 | 3657 (llama.cpp) / 108 (llama.cpp) | x27 / x3 |
+| [`10-31-2026-2235-mmap-weights-v1`](runs/10-31-2026-2235-mmap-weights-v1) | `v0.1.1-101-g2eb12f3` | smollm2-360m-instruct | q4 | 86.7 / 38.7 | 3657 (llama.cpp) / 230 (mlx) | x42 / x6 |
 
 gap = best engine / bare.metal (x1000 means the best engine is 1000x faster).
 Quant rows compare different quantization schemes, so token match is informational.
@@ -38,6 +44,9 @@ Quant rows compare different quantization schemes, so token match is information
 | `10-31-2026-1905-decode-occupancy-v1` | Llama-3.2-1B | 73.6 | 28.3 | 0.388 | x19 | x1 |
 | `10-31-2026-1905-decode-occupancy-v1` | smollm2-135m | 380.0 | 43.0 | 0.090 | x21 | x5 |
 | `10-31-2026-1905-decode-occupancy-v1` | smollm2-360m-instruct | 143.0 | 34.5 | 0.173 | x26 | x3 |
+| `10-31-2026-2235-mmap-weights-v1` | Llama-3.2-1B | 70.4 | 27.3 | 0.409 | x20 | x1 |
+| `10-31-2026-2235-mmap-weights-v1` | smollm2-135m | 355.1 | 42.5 | 0.098 | x19 | x5 |
+| `10-31-2026-2235-mmap-weights-v1` | smollm2-360m-instruct | 136.3 | 33.7 | 0.206 | x27 | x3 |
 
 ## Training (bare.metal)
 
@@ -309,6 +318,96 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggr
 | `bf16_b4` | bf16 | 4 | 64 | 20 | 2276.0 | 112.1 | 2.6485 -> 2.3935 | 3105 | 2598 | 0.0755 | PASS (3.6e-07) |
 | `fp32_b1` | fp32 | 1 | 64 | 20 | 591.4 | 107.1 | 2.2786 -> 2.7159 | 2835 | 2329 | 0.0948 | PASS (1.0e-07) |
 | `fp32_b4` | fp32 | 4 | 64 | 20 | 2247.6 | 113.3 | 2.6485 -> 2.4067 | 2836 | 2329 | 0.0794 | PASS (9.0e-08) |
+
+</details>
+
+<details><summary><code>10-31-2026-2235-mmap-weights-v1</code> &mdash; v0.1.1-101-g2eb12f3 &mdash; Llama-3.2-1B, smollm2-135m, smollm2-360m-instruct</summary>
+
+config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=cross,aggregate,train_steps=20,train_seq=64`
+
+#### Llama-3.2-1B &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 70.4 | 1,390.9 | 1,004.3 | 840.3 |
+| decode tok/s | 27.3 | 39.8 | 34.4 | 32.4 |
+| TTFT ms | 1,265 | 64 | 89 | 106 |
+| ITL ms | 36.4 | 25.1 | 28.9 | 30.3 |
+| peak RSS MB | 4,692 | 2,664 | 1,504 | 595 |
+| peak GPU MB | 2,985 | - | 2,588 | 3,283 |
+| load ms | 4,315 | - | 1,821 | 2,790 |
+| J/token | 0.409 | 1.014 | 0.517 | 0.576 |
+| token match % | 100.0 | 100.0 | 1.6 | 100.0 |
+
+#### Llama-3.2-1B &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 57.2 | 1,418.8 | 1,160.6 |
+| decode tok/s | 40.5 | 108.7 | 95.3 |
+| TTFT ms | 1,558 | 63 | 77 |
+| ITL ms | 25.1 | 9.2 | 10.3 |
+| peak RSS MB | 4,149 | 953 | 1,463 |
+| peak GPU MB | 1,271 | - | 880 |
+| load ms | 4,858 | - | 919 |
+| J/token | 0.306 | 0.492 | 0.191 |
+| token match % | 2.3 | 2.3 | 2.3 |
+
+#### smollm2-135m &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 355.1 | 6,661.2 | 6,812.4 | 4,065.8 |
+| decode tok/s | 42.5 | 182.8 | 202.8 | 85.9 |
+| TTFT ms | 248 | 13 | 13 | 22 |
+| ITL ms | 23.5 | 5.5 | 4.5 | 10.7 |
+| peak RSS MB | 615 | 405 | 705 | 505 |
+| peak GPU MB | 562 | - | 340 | 1,154 |
+| load ms | 477 | - | 253 | 349 |
+| J/token | 0.098 | 0.145 | 0.119 | 0.138 |
+| token match % | 100.0 | 100.0 | 28.1 | 30.5 |
+
+#### smollm2-135m &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 112.6 | 7,954.8 | 7,068.6 |
+| decode tok/s | 44.8 | 227.1 | 358.8 |
+| TTFT ms | 782 | 11 | 12 |
+| ITL ms | 22.3 | 4.4 | 2.4 |
+| peak RSS MB | 470 | 226 | 515 |
+| peak GPU MB | 219 | - | 198 |
+| load ms | 287 | - | 159 |
+| J/token | 0.102 | 0.064 | 0.072 |
+| token match % | 6.2 | 6.2 | 6.2 |
+
+#### smollm2-360m-instruct &middot; bf16
+
+| metric | bare.metal | llama.cpp | mlx | torch-mps |
+|---|---:|---:|---:|---:|
+| prefill tok/s | 136.3 | 3,656.6 | 2,969.6 | 1,944.5 |
+| decode tok/s | 33.7 | 108.2 | 83.0 | 60.6 |
+| TTFT ms | 645 | 24 | 30 | 46 |
+| ITL ms | 29.6 | 9.2 | 11.9 | 16.5 |
+| peak RSS MB | 1,563 | 866 | 1,159 | 505 |
+| peak GPU MB | 1,243 | - | 835 | 1,160 |
+| load ms | 1,326 | - | 443 | 949 |
+| J/token | 0.206 | 0.404 | 0.168 | 0.309 |
+| token match % | 100.0 | 100.0 | 19.5 | 19.5 |
+
+#### smollm2-360m-instruct &middot; q4
+
+| metric | bare.metal | llama.cpp | mlx |
+|---|---:|---:|---:|
+| prefill tok/s | 86.7 | 3,657.5 | 3,351.0 |
+| decode tok/s | 38.7 | 169.1 | 229.9 |
+| TTFT ms | 1,015 | 24 | 26 |
+| ITL ms | 25.7 | 5.9 | 4.0 |
+| peak RSS MB | 1,131 | 372 | 642 |
+| peak GPU MB | 461 | - | 349 |
+| load ms | 455 | - | 219 |
+| J/token | 0.160 | 0.130 | 0.141 |
+| token match % | 1.6 | 1.6 | 1.6 |
 
 </details>
 
