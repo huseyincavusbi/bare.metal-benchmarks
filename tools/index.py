@@ -88,6 +88,35 @@ def sweep_rows(body):
     return rows
 
 
+def train_rows(body):
+    rows = []
+    for cfg, v in sorted((body.get("train") or {}).items()):
+        res = v.get("results") or {}
+        t = res.get("train") or {}
+        conf = v.get("config") or {}
+        meta = v.get("meta") or {}
+        par = t.get("parity") or {}
+        rss = num(res, "memory", "rss_peak_bytes")
+        gpu = num(res, "memory", "gpu_peak_bytes")
+        rows.append({
+            "cfg": cfg,
+            "precision": meta.get("precision"),
+            "batch_size": conf.get("batch_size"),
+            "seq_len": conf.get("seq_len"),
+            "steps": conf.get("steps"),
+            "step_ms": num(t, "step_ms", "p50"),
+            "tokens_per_s": num(t, "tokens_per_s", "mean"),
+            "loss_first": num(t, "loss", "first"),
+            "loss_last": num(t, "loss", "last"),
+            "rss_mb": round(rss / 1e6, 0) if rss else None,
+            "gpu_mb": round(gpu / 1e6, 0) if gpu else None,
+            "j_per_token": num(res, "energy", "j_per_token"),
+            "parity_pass": par.get("pass"),
+            "parity_err": par.get("drift_max_rel_err", par.get("max_rel_err")),
+        })
+    return rows
+
+
 def load_runs():
     runs = []
     for d in sorted(glob.glob(os.path.join(RUNS_DIR, "*"))):
@@ -115,6 +144,7 @@ def load_runs():
             "engines": sorted({e for m in models.values() for e in (m.get("engines") or {})}),
             "headline": {stem: model_headline(b) for stem, b in models.items()},
             "sweep": {stem: sweep_rows(b) for stem, b in models.items()},
+            "train": {stem: train_rows(b) for stem, b in models.items()},
         })
     return runs
 
@@ -186,6 +216,22 @@ def details_block(r, lines):
                              f"{f(s['prefill_tok_s'])} | {f(s['decode_tok_s'])} | "
                              f"{f(s['ttft_ms'], 0)} | {f(s['itl_ms'], 1)} |")
             lines.append("")
+        train = r["train"].get(stem) or []
+        if train:
+            lines += [f"#### {stem} &middot; bare.metal training", "",
+                      "| cfg | prec | B | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |",
+                      "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
+            for t in sorted(train, key=lambda x: (x.get("precision") or "", x.get("batch_size") or 0)):
+                par = "-" if t.get("parity_pass") is None else ("PASS" if t["parity_pass"] else "FAIL")
+                if t.get("parity_err") is not None:
+                    par += f" ({t['parity_err']:.1e})"
+                lines.append(f"| `{t['cfg']}` | {t.get('precision')} | {t.get('batch_size')} "
+                             f"| {t.get('seq_len')} | {t.get('steps')} | {f(t.get('step_ms'))} "
+                             f"| {f(t.get('tokens_per_s'))} "
+                             f"| {f(t.get('loss_first'), 4)} -> {f(t.get('loss_last'), 4)} "
+                             f"| {f(t.get('rss_mb'), 0)} | {f(t.get('gpu_mb'), 0)} "
+                             f"| {f(t.get('j_per_token'), 4)} | {par} |")
+            lines.append("")
     lines += ["</details>", ""]
     return lines
 
@@ -244,6 +290,22 @@ def readme(index):
                 f"| `{r['folder']}` | {stem} | {f(ours.get('prefill_tok_s'))} | "
                 f"{f(ours.get('decode_tok_s'))} | {f(ours.get('j_per_token'), 3)} | "
                 f"{'x' + f(gp, 0) if gp else '-'} | {'x' + f(gd, 0) if gd else '-'} |")
+    train_any = any((r["train"].get(stem) or []) for r in index["runs"] for stem in r["models"])
+    if train_any:
+        L += ["", "## Training (bare.metal)", "",
+              "| run | model | prec | B | S | steps | step ms | tok/s | loss | RSS MB | J/token | parity |",
+              "|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
+        for r in index["runs"]:
+            for stem in r["models"]:
+                for t in (r["train"].get(stem) or []):
+                    par = "-" if t.get("parity_pass") is None else ("PASS" if t["parity_pass"] else "FAIL")
+                    if t.get("parity_err") is not None:
+                        par += f" ({t['parity_err']:.1e})"
+                    L.append(f"| `{r['folder']}` | {stem} | {t.get('precision')} | {t.get('batch_size')} "
+                             f"| {t.get('seq_len')} | {t.get('steps')} | {f(t.get('step_ms'))} "
+                             f"| {f(t.get('tokens_per_s'))} "
+                             f"| {f(t.get('loss_first'), 4)} -> {f(t.get('loss_last'), 4)} "
+                             f"| {f(t.get('rss_mb'), 0)} | {f(t.get('j_per_token'), 4)} | {par} |")
     L += ["", "## Run details", ""]
     for r in index["runs"]:
         L = details_block(r, L)
