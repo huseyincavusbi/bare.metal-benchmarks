@@ -3208,6 +3208,165 @@
           }
         ]
       }
+    },
+    {
+      "folder": "11-01-2026-1442-train-lora-v1",
+      "name": "11-01-2026-1442-train-lora-v1",
+      "date": "11-01-2026",
+      "kind": "run",
+      "version": "v0.1.1-151-ge50fcb1",
+      "commit": "e50fcb1",
+      "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64",
+      "models": [
+        "smollm2-135m"
+      ],
+      "engines": [],
+      "headline": {
+        "smollm2-135m": {}
+      },
+      "sweep": {
+        "smollm2-135m": []
+      },
+      "train": {
+        "smollm2-135m": [
+          {
+            "cfg": "bf16_b1",
+            "precision": "bf16",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 380.344,
+            "tokens_per_s": 166.564,
+            "loss_first": 2.27862906,
+            "loss_last": 2.63791895,
+            "rss_mb": 3087.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 2.85185904e-07
+          },
+          {
+            "cfg": "bf16_b4",
+            "precision": "bf16",
+            "batch_size": 4,
+            "grad_accum": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 1402.562,
+            "tokens_per_s": 183.418,
+            "loss_first": 2.64850259,
+            "loss_last": 2.35557222,
+            "rss_mb": 3088.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 6.24970147e-07
+          },
+          {
+            "cfg": "bf16_ga4",
+            "precision": "bf16",
+            "batch_size": 1,
+            "grad_accum": 4,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 327.878,
+            "tokens_per_s": 184.755,
+            "loss_first": 2.27862906,
+            "loss_last": 2.92724991,
+            "rss_mb": 3087.0,
+            "gpu_mb": 2598.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 0
+          },
+          {
+            "cfg": "bf16_lora",
+            "precision": "bf16",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 223.756,
+            "tokens_per_s": 284.862,
+            "loss_first": 2.27862906,
+            "loss_last": 3.02148843,
+            "rss_mb": 1092.0,
+            "gpu_mb": 650.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 6.85152128e-07
+          },
+          {
+            "cfg": "fp32_b1",
+            "precision": "fp32",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 370.817,
+            "tokens_per_s": 171.814,
+            "loss_first": 2.27862906,
+            "loss_last": 2.7116878,
+            "rss_mb": 2817.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 7.84279005e-07
+          },
+          {
+            "cfg": "fp32_b4",
+            "precision": "fp32",
+            "batch_size": 4,
+            "grad_accum": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 1362.743,
+            "tokens_per_s": 187.627,
+            "loss_first": 2.64850259,
+            "loss_last": 2.37666702,
+            "rss_mb": 2818.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 2.69080595e-07
+          },
+          {
+            "cfg": "fp32_ga4",
+            "precision": "fp32",
+            "batch_size": 1,
+            "grad_accum": 4,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 331.006,
+            "tokens_per_s": 187.433,
+            "loss_first": 2.27862906,
+            "loss_last": 2.90390158,
+            "rss_mb": 2817.0,
+            "gpu_mb": 2329.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 0
+          },
+          {
+            "cfg": "fp32_lora",
+            "precision": "fp32",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 64,
+            "steps": 20,
+            "step_ms": 224.315,
+            "tokens_per_s": 283.403,
+            "loss_first": 2.27862906,
+            "loss_last": 3.02150178,
+            "rss_mb": 1354.0,
+            "gpu_mb": 914.0,
+            "j_per_token": null,
+            "parity_pass": true,
+            "parity_err": 2.56931608e-07
+          }
+        ]
+      }
     }
   ]
 }
