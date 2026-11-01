@@ -1,0 +1,874 @@
+{
+  "schema": "baremetal.benchmark/v1",
+  "run": {
+    "name": "11-01-2026-1255-train-occupancy-v1",
+    "generated_at": "2026-11-01T10:00:07.074865+00:00",
+    "version": {
+      "describe": "v0.1.1-127-g9569b48",
+      "commit": "9569b48",
+      "branch": "train-occupancy"
+    },
+    "host": {
+      "hw_model": "Mac16,10",
+      "hw_machine": "arm64",
+      "gpu_name": "Apple M4",
+      "macos": "27.0.1",
+      "os_build": "26A434",
+      "ram_bytes": 17179869184,
+      "p_cores": 4,
+      "e_cores": 6
+    },
+    "settings": "prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggregate,train_steps=20,train_seq=64",
+    "models": [
+      "smollm2-135m"
+    ]
+  },
+  "models": {
+    "smollm2-135m": {
+      "engines": {},
+      "sweep": {},
+      "train": {
+        "bf16_b1": {
+          "meta": {
+            "engine": "bare.metal",
+            "git_commit": "9569b48",
+            "git_branch": "train-occupancy",
+            "git_dirty": 1,
+            "host": "Apple M4",
+            "hw_model": "Mac16,10",
+            "hw_machine": "arm64",
+            "os_build": "26A434",
+            "gpu_name": "Apple M4",
+            "ram_bytes": 17179869184,
+            "cpu_count": 10,
+            "p_cores": 4,
+            "e_cores": 6,
+            "macos": "27.0.1",
+            "started_at": "2026-11-01T09:55:54Z",
+            "ended_at": "2026-11-01T09:56:16Z",
+            "model": "models/smollm2-135m",
+            "params": 134515008,
+            "n_layers": 30,
+            "dim": 576,
+            "n_heads": 9,
+            "n_kv_heads": 3,
+            "max_seq": 8192,
+            "precision": "bf16",
+            "quant": "none"
+          },
+          "config": {
+            "stage": "train",
+            "seq_len": 64,
+            "batch_size": 1,
+            "grad_accum_steps": 1,
+            "steps": 20,
+            "warmup": 0,
+            "learning_rate": 9.99999975e-05,
+            "seed": 42,
+            "data": "test/grad/g4_text.txt"
+          },
+          "results": {
+            "train": {
+              "step_ms": {
+                "n": 20,
+                "min": 379.057,
+                "max": 488.805,
+                "mean": 393.17,
+                "stddev": 23.8455,
+                "p50": 384.072,
+                "p90": 410.3,
+                "p99": 488.805
+              },
+              "tokens_per_s": {
+                "n": 20,
+                "min": 130.932,
+                "max": 168.84,
+                "mean": 163.284,
+                "stddev": 8.3429,
+                "p50": 166.684,
+                "p90": 167.7,
+                "p99": 168.84
+              },
+              "loss": {
+                "first": 2.27862906,
+                "last": 2.6379354,
+                "min": 2.06243348,
+                "mean": 2.52720261,
+                "values": [
+                  2.27862906,
+                  2.76941848,
+                  2.50803351,
+                  2.52086091,
+                  2.42262101,
+                  2.06243348,
+                  2.21846223,
+                  2.36403108,
+                  2.62774372,
+                  2.46040606,
+                  2.46707773,
+                  2.91528916,
+                  2.9171021,
+                  2.51193023,
+                  2.86064911,
+                  2.2373879,
+                  2.41310334,
+                  2.86031461,
+                  2.49062634,
+                  2.6379354
+                ]
+              },
+              "checkpoints": [
+                {
+                  "step": 0,
+                  "loss": 2.27862906
+                },
+                {
+                  "step": 5,
+                  "loss": 2.06243348
+                },
+                {
+                  "step": 10,
+                  "loss": 2.46707773
+                },
+                {
+                  "step": 15,
+                  "loss": 2.2373879
+                },
+                {
+                  "step": 19,
+                  "loss": 2.6379354
+                }
+              ],
+              "total_tokens": 1280,
+              "parity": {
+                "ref": "train_ref__bf16_b1.json",
+                "n": 1,
+                "tol": 9.99999997e-07,
+                "max_rel_err": 0,
+                "pass": true,
+                "drift_n": 3,
+                "drift_max_rel_err": 9.506195e-08
+              },
+              "load_ms": 192.024
+            },
+            "memory": {
+              "rss_peak_bytes": 3087286272,
+              "gpu_peak_bytes": 2597974092,
+              "gpu_alloc_bytes": 2597973772
+            },
+            "gpu_exec": {
+              "busy_ms": 7111.339,
+              "busy_pct": 90.44,
+              "cmd_buffers": 100,
+              "buffers_per_step": 5.0
+            },
+            "active_seconds": 7.863397,
+            "active_started_unix": 1793526968,
+            "active_ended_unix": 1793526976,
+            "generated_tokens": 1280
+          }
+        },
+        "bf16_b4": {
+          "meta": {
+            "engine": "bare.metal",
+            "git_commit": "9569b48",
+            "git_branch": "train-occupancy",
+            "git_dirty": 1,
+            "host": "Apple M4",
+            "hw_model": "Mac16,10",
+            "hw_machine": "arm64",
+            "os_build": "26A434",
+            "gpu_name": "Apple M4",
+            "ram_bytes": 17179869184,
+            "cpu_count": 10,
+            "p_cores": 4,
+            "e_cores": 6,
+            "macos": "27.0.1",
+            "started_at": "2026-11-01T09:56:35Z",
+            "ended_at": "2026-11-01T09:57:18Z",
+            "model": "models/smollm2-135m",
+            "params": 134515008,
+            "n_layers": 30,
+            "dim": 576,
+            "n_heads": 9,
+            "n_kv_heads": 3,
+            "max_seq": 8192,
+            "precision": "bf16",
+            "quant": "none"
+          },
+          "config": {
+            "stage": "train",
+            "seq_len": 64,
+            "batch_size": 4,
+            "grad_accum_steps": 1,
+            "steps": 20,
+            "warmup": 0,
+            "learning_rate": 9.99999975e-05,
+            "seed": 42,
+            "data": "test/grad/g4_text.txt"
+          },
+          "results": {
+            "train": {
+              "step_ms": {
+                "n": 20,
+                "min": 1402.79,
+                "max": 1430.784,
+                "mean": 1407.853,
+                "stddev": 5.761,
+                "p50": 1407.133,
+                "p90": 1410.337,
+                "p99": 1430.784
+              },
+              "tokens_per_s": {
+                "n": 20,
+                "min": 178.923,
+                "max": 182.493,
+                "mean": 181.84,
+                "stddev": 0.7349,
+                "p50": 181.985,
+                "p90": 182.351,
+                "p99": 182.493
+              },
+              "loss": {
+                "first": 2.64850259,
+                "last": 2.39352345,
+                "min": 2.17435646,
+                "mean": 2.49510264,
+                "values": [
+                  2.64850259,
+                  2.42845106,
+                  2.67212987,
+                  2.78572845,
+                  2.76630116,
+                  2.17435646,
+                  2.48348713,
+                  2.39618802,
+                  2.59128332,
+                  2.3337326,
+                  2.68434763,
+                  2.39683557,
+                  2.32751155,
+                  2.72317958,
+                  2.58883095,
+                  2.31541634,
+                  2.28456569,
+                  2.31611466,
+                  2.59156609,
+                  2.39352345
+                ]
+              },
+              "checkpoints": [
+                {
+                  "step": 0,
+                  "loss": 2.64850259
+                },
+                {
+                  "step": 5,
+                  "loss": 2.17435646
+                },
+                {
+                  "step": 10,
+                  "loss": 2.68434763
+                },
+                {
+                  "step": 15,
+                  "loss": 2.31541634
+                },
+                {
+                  "step": 19,
+                  "loss": 2.39352345
+                }
+              ],
+              "total_tokens": 5120,
+              "parity": {
+                "ref": "train_ref__bf16_b4.json",
+                "n": 1,
+                "tol": 9.99999997e-07,
+                "max_rel_err": 0,
+                "pass": true,
+                "drift_n": 3,
+                "drift_max_rel_err": 1.78448379e-07
+              },
+              "load_ms": 206.256
+            },
+            "memory": {
+              "rss_peak_bytes": 3088072704,
+              "gpu_peak_bytes": 2597974092,
+              "gpu_alloc_bytes": 2597973772
+            },
+            "gpu_exec": {
+              "busy_ms": 25998.38,
+              "busy_pct": 92.33,
+              "cmd_buffers": 340,
+              "buffers_per_step": 17.0
+            },
+            "active_seconds": 28.157062,
+            "active_started_unix": 1793527009,
+            "active_ended_unix": 1793527038,
+            "generated_tokens": 5120
+          }
+        },
+        "bf16_ga4": {
+          "meta": {
+            "engine": "bare.metal",
+            "git_commit": "9569b48",
+            "git_branch": "train-occupancy",
+            "git_dirty": 1,
+            "host": "Apple M4",
+            "hw_model": "Mac16,10",
+            "hw_machine": "arm64",
+            "os_build": "26A434",
+            "gpu_name": "Apple M4",
+            "ram_bytes": 17179869184,
+            "cpu_count": 10,
+            "p_cores": 4,
+            "e_cores": 6,
+            "macos": "27.0.1",
+            "started_at": "2026-11-01T09:57:33Z",
+            "ended_at": "2026-11-01T09:57:54Z",
+            "model": "models/smollm2-135m",
+            "params": 134515008,
+            "n_layers": 30,
+            "dim": 576,
+            "n_heads": 9,
+            "n_kv_heads": 3,
+            "max_seq": 8192,
+            "precision": "bf16",
+            "quant": "none"
+          },
+          "config": {
+            "stage": "train",
+            "seq_len": 64,
+            "batch_size": 1,
+            "grad_accum_steps": 4,
+            "steps": 20,
+            "warmup": 0,
+            "learning_rate": 9.99999975e-05,
+            "seed": 42,
+            "data": "test/grad/g4_text.txt"
+          },
+          "results": {
+            "train": {
+              "step_ms": {
+                "n": 20,
+                "min": 323.672,
+                "max": 430.863,
+                "mean": 350.355,
+                "stddev": 39.5909,
+                "p50": 330.343,
+                "p90": 425.86,
+                "p99": 430.863
+              },
+              "tokens_per_s": {
+                "n": 20,
+                "min": 148.539,
+                "max": 197.731,
+                "mean": 184.759,
+                "stddev": 18.497,
+                "p50": 196.793,
+                "p90": 197.571,
+                "p99": 197.731
+              },
+              "loss": {
+                "first": 2.27862906,
+                "last": 2.93706226,
+                "min": 2.10308981,
+                "mean": 2.66022348,
+                "values": [
+                  2.27862906,
+                  2.78708076,
+                  2.70911431,
+                  2.81918621,
+                  2.64931941,
+                  2.10308981,
+                  2.4012723,
+                  2.56012249,
+                  2.5522182,
+                  2.719697,
+                  2.55914021,
+                  2.85747099,
+                  3.04066229,
+                  2.61363053,
+                  3.35233974,
+                  2.13628483,
+                  2.60619235,
+                  3.06739736,
+                  2.4545567,
+                  2.93706226
+                ]
+              },
+              "checkpoints": [
+                {
+                  "step": 0,
+                  "loss": 2.27862906
+                },
+                {
+                  "step": 5,
+                  "loss": 2.10308981
+                },
+                {
+                  "step": 10,
+                  "loss": 2.55914021
+                },
+                {
+                  "step": 15,
+                  "loss": 2.13628483
+                },
+                {
+                  "step": 19,
+                  "loss": 2.93706226
+                }
+              ],
+              "total_tokens": 1280,
+              "parity": {
+                "ref": "train_ref__bf16_ga4.json",
+                "n": 1,
+                "tol": 9.99999997e-07,
+                "max_rel_err": 0,
+                "pass": true,
+                "drift_n": 3,
+                "drift_max_rel_err": 0
+              },
+              "load_ms": 202.69
+            },
+            "memory": {
+              "rss_peak_bytes": 3087187968,
+              "gpu_peak_bytes": 2597974092,
+              "gpu_alloc_bytes": 2597973772
+            },
+            "gpu_exec": {
+              "busy_ms": 6513.918,
+              "busy_pct": 92.96,
+              "cmd_buffers": 85,
+              "buffers_per_step": 4.25
+            },
+            "active_seconds": 7.007096,
+            "active_started_unix": 1793527067,
+            "active_ended_unix": 1793527074,
+            "generated_tokens": 1280
+          }
+        },
+        "fp32_b1": {
+          "meta": {
+            "engine": "bare.metal",
+            "git_commit": "9569b48",
+            "git_branch": "train-occupancy",
+            "git_dirty": 1,
+            "host": "Apple M4",
+            "hw_model": "Mac16,10",
+            "hw_machine": "arm64",
+            "os_build": "26A434",
+            "gpu_name": "Apple M4",
+            "ram_bytes": 17179869184,
+            "cpu_count": 10,
+            "p_cores": 4,
+            "e_cores": 6,
+            "macos": "27.0.1",
+            "started_at": "2026-11-01T09:58:09Z",
+            "ended_at": "2026-11-01T09:58:31Z",
+            "model": "models/smollm2-135m",
+            "params": 134515008,
+            "n_layers": 30,
+            "dim": 576,
+            "n_heads": 9,
+            "n_kv_heads": 3,
+            "max_seq": 8192,
+            "precision": "fp32",
+            "quant": "none"
+          },
+          "config": {
+            "stage": "train",
+            "seq_len": 64,
+            "batch_size": 1,
+            "grad_accum_steps": 1,
+            "steps": 20,
+            "warmup": 0,
+            "learning_rate": 9.99999975e-05,
+            "seed": 42,
+            "data": "test/grad/g4_text.txt"
+          },
+          "results": {
+            "train": {
+              "step_ms": {
+                "n": 20,
+                "min": 370.03,
+                "max": 404.834,
+                "mean": 374.441,
+                "stddev": 7.1278,
+                "p50": 372.914,
+                "p90": 375.738,
+                "p99": 404.834
+              },
+              "tokens_per_s": {
+                "n": 20,
+                "min": 158.089,
+                "max": 172.959,
+                "mean": 170.979,
+                "stddev": 3.0343,
+                "p50": 171.713,
+                "p90": 172.455,
+                "p99": 172.959
+              },
+              "loss": {
+                "first": 2.27862906,
+                "last": 2.71586704,
+                "min": 2.13925695,
+                "mean": 2.53194451,
+                "values": [
+                  2.27862906,
+                  2.73706436,
+                  2.39222598,
+                  2.48043132,
+                  2.43785357,
+                  2.13925695,
+                  2.23995972,
+                  2.40186143,
+                  2.64288521,
+                  2.49552321,
+                  2.44887924,
+                  2.8447926,
+                  2.95904565,
+                  2.56726789,
+                  2.83263707,
+                  2.22983408,
+                  2.43871784,
+                  2.8624301,
+                  2.49372602,
+                  2.71586704
+                ]
+              },
+              "checkpoints": [
+                {
+                  "step": 0,
+                  "loss": 2.27862906
+                },
+                {
+                  "step": 5,
+                  "loss": 2.13925695
+                },
+                {
+                  "step": 10,
+                  "loss": 2.44887924
+                },
+                {
+                  "step": 15,
+                  "loss": 2.22983408
+                },
+                {
+                  "step": 19,
+                  "loss": 2.71586704
+                }
+              ],
+              "total_tokens": 1280,
+              "parity": {
+                "ref": "train_ref__fp32_b1.json",
+                "n": 1,
+                "tol": 9.99999997e-07,
+                "max_rel_err": 0,
+                "pass": true,
+                "drift_n": 3,
+                "drift_max_rel_err": 2.61322289e-07
+              },
+              "load_ms": 172.525
+            },
+            "memory": {
+              "rss_peak_bytes": 2817163264,
+              "gpu_peak_bytes": 2329014348,
+              "gpu_alloc_bytes": 2329014028
+            },
+            "gpu_exec": {
+              "busy_ms": 7120.14,
+              "busy_pct": 95.08,
+              "cmd_buffers": 100,
+              "buffers_per_step": 5.0
+            },
+            "active_seconds": 7.488826,
+            "active_started_unix": 1793527103,
+            "active_ended_unix": 1793527110,
+            "generated_tokens": 1280
+          }
+        },
+        "fp32_b4": {
+          "meta": {
+            "engine": "bare.metal",
+            "git_commit": "9569b48",
+            "git_branch": "train-occupancy",
+            "git_dirty": 1,
+            "host": "Apple M4",
+            "hw_model": "Mac16,10",
+            "hw_machine": "arm64",
+            "os_build": "26A434",
+            "gpu_name": "Apple M4",
+            "ram_bytes": 17179869184,
+            "cpu_count": 10,
+            "p_cores": 4,
+            "e_cores": 6,
+            "macos": "27.0.1",
+            "started_at": "2026-11-01T09:58:49Z",
+            "ended_at": "2026-11-01T09:59:30Z",
+            "model": "models/smollm2-135m",
+            "params": 134515008,
+            "n_layers": 30,
+            "dim": 576,
+            "n_heads": 9,
+            "n_kv_heads": 3,
+            "max_seq": 8192,
+            "precision": "fp32",
+            "quant": "none"
+          },
+          "config": {
+            "stage": "train",
+            "seq_len": 64,
+            "batch_size": 4,
+            "grad_accum_steps": 1,
+            "steps": 20,
+            "warmup": 0,
+            "learning_rate": 9.99999975e-05,
+            "seed": 42,
+            "data": "test/grad/g4_text.txt"
+          },
+          "results": {
+            "train": {
+              "step_ms": {
+                "n": 20,
+                "min": 1358.704,
+                "max": 1381.626,
+                "mean": 1366.581,
+                "stddev": 4.8049,
+                "p50": 1366.006,
+                "p90": 1371.891,
+                "p99": 1381.626
+              },
+              "tokens_per_s": {
+                "n": 20,
+                "min": 185.289,
+                "max": 188.415,
+                "mean": 187.331,
+                "stddev": 0.6554,
+                "p50": 187.502,
+                "p90": 187.87,
+                "p99": 188.415
+              },
+              "loss": {
+                "first": 2.64850259,
+                "last": 2.40667415,
+                "min": 2.18126917,
+                "mean": 2.50184774,
+                "values": [
+                  2.64850259,
+                  2.4154346,
+                  2.66163969,
+                  2.78995037,
+                  2.7649138,
+                  2.18126917,
+                  2.50316358,
+                  2.41385508,
+                  2.60633564,
+                  2.34880018,
+                  2.69672632,
+                  2.40505123,
+                  2.35393381,
+                  2.74017906,
+                  2.5976181,
+                  2.32337642,
+                  2.28870535,
+                  2.31560469,
+                  2.5752244,
+                  2.40667415
+                ]
+              },
+              "checkpoints": [
+                {
+                  "step": 0,
+                  "loss": 2.64850259
+                },
+                {
+                  "step": 5,
+                  "loss": 2.18126917
+                },
+                {
+                  "step": 10,
+                  "loss": 2.69672632
+                },
+                {
+                  "step": 15,
+                  "loss": 2.32337642
+                },
+                {
+                  "step": 19,
+                  "loss": 2.40667415
+                }
+              ],
+              "total_tokens": 5120,
+              "parity": {
+                "ref": "train_ref__fp32_b4.json",
+                "n": 1,
+                "tol": 9.99999997e-07,
+                "max_rel_err": 0,
+                "pass": true,
+                "drift_n": 3,
+                "drift_max_rel_err": 2.68727412e-07
+              },
+              "load_ms": 182.313
+            },
+            "memory": {
+              "rss_peak_bytes": 2817884160,
+              "gpu_peak_bytes": 2329014348,
+              "gpu_alloc_bytes": 2329014028
+            },
+            "gpu_exec": {
+              "busy_ms": 26169.625,
+              "busy_pct": 95.75,
+              "cmd_buffers": 340,
+              "buffers_per_step": 17.0
+            },
+            "active_seconds": 27.331619,
+            "active_started_unix": 1793527143,
+            "active_ended_unix": 1793527170,
+            "generated_tokens": 5120
+          }
+        },
+        "fp32_ga4": {
+          "meta": {
+            "engine": "bare.metal",
+            "git_commit": "9569b48",
+            "git_branch": "train-occupancy",
+            "git_dirty": 1,
+            "host": "Apple M4",
+            "hw_model": "Mac16,10",
+            "hw_machine": "arm64",
+            "os_build": "26A434",
+            "gpu_name": "Apple M4",
+            "ram_bytes": 17179869184,
+            "cpu_count": 10,
+            "p_cores": 4,
+            "e_cores": 6,
+            "macos": "27.0.1",
+            "started_at": "2026-11-01T09:59:46Z",
+            "ended_at": "2026-11-01T10:00:07Z",
+            "model": "models/smollm2-135m",
+            "params": 134515008,
+            "n_layers": 30,
+            "dim": 576,
+            "n_heads": 9,
+            "n_kv_heads": 3,
+            "max_seq": 8192,
+            "precision": "fp32",
+            "quant": "none"
+          },
+          "config": {
+            "stage": "train",
+            "seq_len": 64,
+            "batch_size": 1,
+            "grad_accum_steps": 4,
+            "steps": 20,
+            "warmup": 0,
+            "learning_rate": 9.99999975e-05,
+            "seed": 42,
+            "data": "test/grad/g4_text.txt"
+          },
+          "results": {
+            "train": {
+              "step_ms": {
+                "n": 20,
+                "min": 325.694,
+                "max": 381.877,
+                "mean": 342.841,
+                "stddev": 22.4679,
+                "p50": 332.048,
+                "p90": 380.077,
+                "p99": 381.877
+              },
+              "tokens_per_s": {
+                "n": 20,
+                "min": 167.593,
+                "max": 196.503,
+                "mean": 187.434,
+                "stddev": 11.5831,
+                "p50": 195.358,
+                "p90": 195.94,
+                "p99": 196.503
+              },
+              "loss": {
+                "first": 2.27862906,
+                "last": 2.91315937,
+                "min": 2.12030482,
+                "mean": 2.65608811,
+                "values": [
+                  2.27862906,
+                  2.78708076,
+                  2.70911431,
+                  2.81918621,
+                  2.61250401,
+                  2.12030482,
+                  2.36796355,
+                  2.56096387,
+                  2.54362392,
+                  2.68848395,
+                  2.54678702,
+                  2.86766243,
+                  3.06636834,
+                  2.62139297,
+                  3.32955885,
+                  2.14248323,
+                  2.62694144,
+                  3.0562036,
+                  2.4633522,
+                  2.91315937
+                ]
+              },
+              "checkpoints": [
+                {
+                  "step": 0,
+                  "loss": 2.27862906
+                },
+                {
+                  "step": 5,
+                  "loss": 2.12030482
+                },
+                {
+                  "step": 10,
+                  "loss": 2.54678702
+                },
+                {
+                  "step": 15,
+                  "loss": 2.14248323
+                },
+                {
+                  "step": 19,
+                  "loss": 2.91315937
+                }
+              ],
+              "total_tokens": 1280,
+              "parity": {
+                "ref": "train_ref__fp32_ga4.json",
+                "n": 1,
+                "tol": 9.99999997e-07,
+                "max_rel_err": 0,
+                "pass": true,
+                "drift_n": 3,
+                "drift_max_rel_err": 0
+              },
+              "load_ms": 178.062
+            },
+            "memory": {
+              "rss_peak_bytes": 2817064960,
+              "gpu_peak_bytes": 2329014348,
+              "gpu_alloc_bytes": 2329014028
+            },
+            "gpu_exec": {
+              "busy_ms": 6552.369,
+              "busy_pct": 95.56,
+              "cmd_buffers": 85,
+              "buffers_per_step": 4.25
+            },
+            "active_seconds": 6.856818,
+            "active_started_unix": 1793527199,
+            "active_ended_unix": 1793527206,
+            "generated_tokens": 1280
+          }
+        }
+      }
+    }
+  }
+}
