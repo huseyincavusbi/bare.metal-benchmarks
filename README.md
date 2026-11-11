@@ -99,6 +99,8 @@ Quant rows compare different quantization schemes, so token match is information
 | `11-01-2026-1442-train-lora-v1` | smollm2-135m | fp32 | 4 | 1 | 64 | 20 | 1362.7 | 187.6 | 2.6485 -> 2.3767 | 2818 | 2329 | - | PASS (2.7e-07) |
 | `11-01-2026-1442-train-lora-v1` | smollm2-135m | fp32 | 1 | 4 | 64 | 20 | 331.0 | 187.4 | 2.2786 -> 2.9039 | 2817 | 2329 | - | PASS (0.0e+00) |
 | `11-01-2026-1442-train-lora-v1` | smollm2-135m | fp32 | 1 | 1 | 64 | 20 | 224.3 | 283.4 | 2.2786 -> 3.0215 | 1354 | 914 | - | PASS (2.6e-07) |
+| `11-12-2026-0058-sft-dolly-v1` | Llama-3.2-1B | bf16 | 1 | 1 | 128 | 200 | 1570.4 | 81.8 | 3.1117 -> 1.0651 | 8062 | 4178 | - | - |
+| `11-12-2026-0058-sft-dolly-v1` | smollm2-135m | bf16 | 1 | 1 | 128 | 200 | 352.0 | 375.8 | 2.7897 -> 0.8955 | 1283 | 986 | - | - |
 
 ## Run details
 
@@ -724,6 +726,24 @@ config: `prompt_cap=128,gen=128,reps=3,formats=bf16,fp16,q8,q4,stages=train,aggr
 | `fp32_ga4` | fp32 | 1 | 4 | 64 | 20 | 331.0 | 187.4 | 2.2786 -> 2.9039 | 2817 | 2329 | - | PASS (0.0e+00) |
 | `fp32_lora` | fp32 | 1 | 1 | 64 | 20 | 224.3 | 283.4 | 2.2786 -> 3.0215 | 1354 | 914 | - | PASS (2.6e-07) |
 | `fp32_b4` | fp32 | 4 | 1 | 64 | 20 | 1362.7 | 187.6 | 2.6485 -> 2.3767 | 2818 | 2329 | - | PASS (2.7e-07) |
+
+</details>
+
+<details><summary><code>11-12-2026-0058-sft-dolly-v1</code> &mdash; v0.1.1-203-g5dc0c76 &mdash; Llama-3.2-1B, smollm2-135m</summary>
+
+config: `stages=sft,sft_steps=200,sft_seq=128,dataset=dolly_600.jsonl,val_split=10`
+
+#### Llama-3.2-1B &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 128 | 200 | 1570.4 | 81.8 | 3.1117 -> 1.0651 | 8062 | 4178 | - | - |
+
+#### smollm2-135m &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 128 | 200 | 352.0 | 375.8 | 2.7897 -> 0.8955 | 1283 | 986 | - | - |
 
 </details>
 
