@@ -103,6 +103,8 @@ Quant rows compare different quantization schemes, so token match is information
 | `11-12-2026-0058-sft-dolly-v1` | smollm2-135m | bf16 | 1 | 1 | 128 | 200 | 352.0 | 375.8 | 2.7897 -> 0.8955 | 1283 | 986 | - | - |
 | `11-16-2026-1306-sft-dolly-s256-v1` | Llama-3.2-1B | bf16 | 1 | 1 | 256 | 200 | 2974.4 | 83.7 | 2.9569 -> 0.9211 | 1893 | 5783 | - | - |
 | `11-16-2026-1306-sft-dolly-s256-v1` | smollm2-135m | bf16 | 1 | 1 | 256 | 200 | 742.4 | 386.3 | 2.7067 -> 0.7809 | 1238 | 1659 | - | - |
+| `11-17-2026-2357-sft-dolly-s512-v3` | Llama-3.2-1B | bf16 | 1 | 1 | 512 | 200 | 4081.7 | 124.2 | 2.7480 -> 0.9265 | 1200 | 6159 | - | - |
+| `11-17-2026-2357-sft-dolly-s512-v3` | smollm2-135m | bf16 | 1 | 1 | 512 | 200 | 625.6 | 795.9 | 2.7366 -> 0.7994 | 1140 | 1793 | - | - |
 
 ## Run details
 
@@ -764,6 +766,24 @@ config: `stages=sft,sft_steps=200,sft_seq=256,dataset=dolly_600.jsonl,val_split=
 | cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | `bf16_sft` | bf16 | 1 | 1 | 256 | 200 | 742.4 | 386.3 | 2.7067 -> 0.7809 | 1238 | 1659 | - | - |
+
+</details>
+
+<details><summary><code>11-17-2026-2357-sft-dolly-s512-v3</code> &mdash; v0.1.1-232-ga57df07 &mdash; Llama-3.2-1B, smollm2-135m</summary>
+
+config: `stages=sft,sft_steps=200,sft_seq=512,dataset=dolly_600.jsonl,val_split=10`
+
+#### Llama-3.2-1B &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 512 | 200 | 4081.7 | 124.2 | 2.7480 -> 0.9265 | 1200 | 6159 | - | - |
+
+#### smollm2-135m &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 512 | 200 | 625.6 | 795.9 | 2.7366 -> 0.7994 | 1140 | 1793 | - | - |
 
 </details>
 

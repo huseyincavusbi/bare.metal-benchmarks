@@ -3491,6 +3491,68 @@
           }
         ]
       }
+    },
+    {
+      "folder": "11-17-2026-2357-sft-dolly-s512-v3",
+      "name": "11-17-2026-2357-sft-dolly-s512-v3",
+      "date": "11-17-2026",
+      "kind": "run",
+      "version": "v0.1.1-232-ga57df07",
+      "commit": "a57df07",
+      "settings": "stages=sft,sft_steps=200,sft_seq=512,dataset=dolly_600.jsonl,val_split=10",
+      "models": [
+        "Llama-3.2-1B",
+        "smollm2-135m"
+      ],
+      "engines": [],
+      "headline": {
+        "Llama-3.2-1B": {},
+        "smollm2-135m": {}
+      },
+      "sweep": {
+        "Llama-3.2-1B": [],
+        "smollm2-135m": []
+      },
+      "train": {
+        "Llama-3.2-1B": [
+          {
+            "cfg": "bf16_sft",
+            "precision": "bf16",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 512,
+            "steps": 200,
+            "step_ms": 4081.658,
+            "tokens_per_s": 124.202,
+            "loss_first": 2.7479775,
+            "loss_last": 0.926529527,
+            "rss_mb": 1200.0,
+            "gpu_mb": 6159.0,
+            "j_per_token": null,
+            "parity_pass": null,
+            "parity_err": null
+          }
+        ],
+        "smollm2-135m": [
+          {
+            "cfg": "bf16_sft",
+            "precision": "bf16",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 512,
+            "steps": 200,
+            "step_ms": 625.622,
+            "tokens_per_s": 795.928,
+            "loss_first": 2.73664045,
+            "loss_last": 0.799368083,
+            "rss_mb": 1140.0,
+            "gpu_mb": 1793.0,
+            "j_per_token": null,
+            "parity_pass": null,
+            "parity_err": null
+          }
+        ]
+      }
     }
   ]
 }
