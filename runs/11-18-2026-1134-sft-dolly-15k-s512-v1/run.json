@@ -1,0 +1,24 @@
+{
+  "name": "11-18-2026-1134-sft-dolly-15k-s512-v1",
+  "generated_at": "2026-11-18T09:19:10.689619+00:00",
+  "version": {
+    "describe": "v0.1.1-233-gaf3f4e0",
+    "commit": "af3f4e0",
+    "branch": "main"
+  },
+  "host": {
+    "hw_model": "Mac16,10",
+    "hw_machine": "arm64",
+    "gpu_name": "Apple M4",
+    "macos": "27.2.1",
+    "os_build": "26B131",
+    "ram_bytes": 17179869184,
+    "p_cores": 4,
+    "e_cores": 6
+  },
+  "settings": "stages=sft,sft_steps=500,sft_seq=512,dataset=dolly_15000.jsonl,val_split=10,val_limit=200",
+  "models": [
+    "Llama-3.2-1B",
+    "smollm2-135m"
+  ]
+}
