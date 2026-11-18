@@ -109,6 +109,7 @@ Quant rows compare different quantization schemes, so token match is information
 | `11-18-2026-1045-sft-dolly-2k-s512-v1` | smollm2-135m | bf16 | 1 | 1 | 512 | 500 | 645.2 | 774.2 | 4.1091 -> 1.5315 | 1164 | 1793 | - | - |
 | `11-18-2026-1134-sft-dolly-15k-s512-v1` | Llama-3.2-1B | bf16 | 1 | 1 | 512 | 500 | 4117.0 | 119.7 | 2.2124 -> 1.4571 | 7975 | 6159 | - | - |
 | `11-18-2026-1134-sft-dolly-15k-s512-v1` | smollm2-135m | bf16 | 1 | 1 | 512 | 500 | 626.0 | 796.4 | 2.0256 -> 1.6925 | 1181 | 1793 | - | - |
+| `11-18-2026-1148-sft-dolly-15k-s512-v1-local135-1000` | smollm2-135m | bf16 | 1 | 1 | 512 | 1000 | 649.8 | 768.6 | 2.0256 -> 2.2112 | 1135 | 1793 | - | - |
 
 ## Run details
 
@@ -824,6 +825,18 @@ config: `stages=sft,sft_steps=500,sft_seq=512,dataset=dolly_15000.jsonl,val_spli
 | cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | `bf16_sft` | bf16 | 1 | 1 | 512 | 500 | 626.0 | 796.4 | 2.0256 -> 1.6925 | 1181 | 1793 | - | - |
+
+</details>
+
+<details><summary><code>11-18-2026-1148-sft-dolly-15k-s512-v1-local135-1000</code> &mdash; v0.1.1-239-g350746e &mdash; smollm2-135m</summary>
+
+config: `stages=sft,sft_steps=1000,sft_seq=512,dataset=dolly_15000.jsonl,val_split=10,val_limit=200`
+
+#### smollm2-135m &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 512 | 1000 | 649.8 | 768.6 | 2.0256 -> 2.2112 | 1135 | 1793 | - | - |
 
 </details>
 

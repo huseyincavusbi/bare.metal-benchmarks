@@ -3677,6 +3677,46 @@
           }
         ]
       }
+    },
+    {
+      "folder": "11-18-2026-1148-sft-dolly-15k-s512-v1-local135-1000",
+      "name": "11-18-2026-1148-sft-dolly-15k-s512-v1-local135-1000",
+      "date": "11-18-2026",
+      "kind": "run",
+      "version": "v0.1.1-239-g350746e",
+      "commit": "350746e",
+      "settings": "stages=sft,sft_steps=1000,sft_seq=512,dataset=dolly_15000.jsonl,val_split=10,val_limit=200",
+      "models": [
+        "smollm2-135m"
+      ],
+      "engines": [],
+      "headline": {
+        "smollm2-135m": {}
+      },
+      "sweep": {
+        "smollm2-135m": []
+      },
+      "train": {
+        "smollm2-135m": [
+          {
+            "cfg": "bf16_sft",
+            "precision": "bf16",
+            "batch_size": 1,
+            "grad_accum": 1,
+            "seq_len": 512,
+            "steps": 1000,
+            "step_ms": 649.841,
+            "tokens_per_s": 768.6,
+            "loss_first": 2.02564669,
+            "loss_last": 2.21124339,
+            "rss_mb": 1135.0,
+            "gpu_mb": 1793.0,
+            "j_per_token": null,
+            "parity_pass": null,
+            "parity_err": null
+          }
+        ]
+      }
     }
   ]
 }
