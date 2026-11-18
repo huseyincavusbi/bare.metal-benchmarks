@@ -1,0 +1,19 @@
+# 11-18-2026-1206-sft-dolly-15k-s512-v1-local135-2000
+
+- version: `v0.1.1-239-g350746e`
+- settings: `stages=sft,sft_steps=2000,sft_seq=512,dataset=dolly_15000.jsonl,val_split=10,val_limit=200`
+
+## smollm2-135m
+
+### Training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | W | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| bf16_sft | bf16 | 1 | 1 | 512 | 2000 | 645.6 | 772.4 | 2.0256 -> 3.8325 | 1251 | 1793 | - | - |
+
+### SFT
+
+| cfg | template | train | val | val loss | step ms | tok/s | RSS MB | GPU MB | adapter |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| bf16_sft | chatml | 13500 | 200 | 1.9996 | 645.6 | 772.4 | 1251 | 1793 | smollm2-135m.bin |
+
