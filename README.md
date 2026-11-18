@@ -105,6 +105,8 @@ Quant rows compare different quantization schemes, so token match is information
 | `11-16-2026-1306-sft-dolly-s256-v1` | smollm2-135m | bf16 | 1 | 1 | 256 | 200 | 742.4 | 386.3 | 2.7067 -> 0.7809 | 1238 | 1659 | - | - |
 | `11-17-2026-2357-sft-dolly-s512-v3` | Llama-3.2-1B | bf16 | 1 | 1 | 512 | 200 | 4081.7 | 124.2 | 2.7480 -> 0.9265 | 1200 | 6159 | - | - |
 | `11-17-2026-2357-sft-dolly-s512-v3` | smollm2-135m | bf16 | 1 | 1 | 512 | 200 | 625.6 | 795.9 | 2.7366 -> 0.7994 | 1140 | 1793 | - | - |
+| `11-18-2026-1045-sft-dolly-2k-s512-v1` | Llama-3.2-1B | bf16 | 1 | 1 | 512 | 500 | 4088.2 | 124.0 | 2.5426 -> 1.2813 | 7956 | 6159 | - | - |
+| `11-18-2026-1045-sft-dolly-2k-s512-v1` | smollm2-135m | bf16 | 1 | 1 | 512 | 500 | 645.2 | 774.2 | 4.1091 -> 1.5315 | 1164 | 1793 | - | - |
 
 ## Run details
 
@@ -784,6 +786,24 @@ config: `stages=sft,sft_steps=200,sft_seq=512,dataset=dolly_600.jsonl,val_split=
 | cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | `bf16_sft` | bf16 | 1 | 1 | 512 | 200 | 625.6 | 795.9 | 2.7366 -> 0.7994 | 1140 | 1793 | - | - |
+
+</details>
+
+<details><summary><code>11-18-2026-1045-sft-dolly-2k-s512-v1</code> &mdash; v0.1.1-233-gaf3f4e0 &mdash; Llama-3.2-1B, smollm2-135m</summary>
+
+config: `stages=sft,sft_steps=500,sft_seq=512,dataset=dolly_2000.jsonl,val_split=10`
+
+#### Llama-3.2-1B &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 512 | 500 | 4088.2 | 124.0 | 2.5426 -> 1.2813 | 7956 | 6159 | - | - |
+
+#### smollm2-135m &middot; bare.metal training
+
+| cfg | prec | B | G | S | steps | step ms | tok/s | loss | RSS MB | GPU MB | J/token | parity |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| `bf16_sft` | bf16 | 1 | 1 | 512 | 500 | 645.2 | 774.2 | 4.1091 -> 1.5315 | 1164 | 1793 | - | - |
 
 </details>
 
